@@ -1,31 +1,57 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html>  
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    <title>Sterling Electrical Contractors of Seattle</title>
+    <title>Boomerang 2 - MultiPurpose Template</title>
 
     <!-- Essential styles -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
-
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"> 
+    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.css?v=2.1.5" media="screen"> 
+     
     <!-- Boomerang styles -->
-    <link id="wpStylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/global-style.css" rel="stylesheet" media="screen">
+        <link id="wpStylesheet" type="text/css" href="css/global-style.css" rel="stylesheet" media="screen">
+        
 
     <!-- Favicon -->
-    <link href="{{ site.baseurl }}/assets/images/favicon.png" rel="icon" type="image/png">
+    <link href="images/favicon.png" rel="icon" type="image/png">
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="assets/sky-forms/css/sky-forms.css">    
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="assets/sky-forms/css/sky-forms-ie8.css">
+    <![endif]-->
 
     <!-- Required JS -->
-    <script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/jquery-ui.min.js"></script>
-</head>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
 
-<body class="body-bg-2">
-<div class="body-wrap" style="min-height: 895px;">
+    <!-- Page scripts -->
+    <link rel="stylesheet" href="assets/layerslider/css/layerslider.css" type="text/css">
+
+</head>
+<body>
+<!-- MODALS -->
+
+<!-- MOBILE MENU - Option 2 -->
+<section id="navMobile" class="aside-menu left">
+    <form class="form-horizontal form-search">
+        <div class="input-group">
+            <input type="search" class="form-control" placeholder="Search...">
+            <span class="input-group-btn">
+                <button id="btnHideMobileNav" class="btn btn-close" type="button" title="Hide sidebar"><i class="fa fa-times"></i></button>
+            </span>
+        </div>
+    </form>
+    <div id="dl-menu" class="dl-menuwrapper">
+        <ul class="dl-menu"></ul>
+    </div>
+</section> 
+
 <!-- Here comes the page content -->
 
     {% include header.html %}
