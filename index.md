@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: default
 ---
 
 # Sterling Electrical Contractors
