@@ -2,9 +2,12 @@
 title: Sterling Electrical Contractors | Seattle
 email: aaron@secseattle.com
 description: Sterling Electrical Contractors provides electrical and excavation work for commercial and residential.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
+plugins: "assets/plugins"
+css: "assets/css"
+js: "assets/js"
 url: "secseattle.github.io" # the base hostname & protocol for your site
-github_username:  secseattle
+github_username: "secseattle"
 
 # Build settings
 markdown: kramdown
