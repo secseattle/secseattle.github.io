@@ -1,2 +1,8 @@
 .idea
+<<<<<<< HEAD
 
+=======
+_site
+.sass-cache
+Gemfile.lock
+>>>>>>> gh-pages
