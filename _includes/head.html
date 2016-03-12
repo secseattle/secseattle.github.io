@@ -19,30 +19,30 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <!-- Essential styles -->
-    <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/plugins/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/assets/plugins/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
+    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
 
     <!-- Boomerang styles -->
-        <link id="wpStylesheet" type="text/css" href="/assets/css/global-style.css" rel="stylesheet" media="screen">
+        <link id="wpStylesheet" type="text/css" href="{{ site.path.css | prepend: site.baseurl }}/global-style.css" rel="stylesheet" media="screen">
 
 
     <!-- Favicon -->
-    <link href="/images/favicon.png" rel="icon" type="image/png">
+    <link href="{{ site.path.images | prepend: site.baseurl }}/favicon.png" rel="icon" type="image/png">
 
     <!-- Assets -->
-    <link rel="stylesheet" href="/assets/plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="/assets/plugins/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="/assets/plugins/sky-forms/css/sky-forms.css">
+    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/sky-forms/css/sky-forms.css">
     <!--[if lt IE 9]>
         <link rel="stylesheet" href="assets/sky-forms/css/sky-forms-ie8.css">
     <![endif]-->
 
     <!-- Required JS -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/jquery-ui.min.js"></script>
+    <script src="{{ site.path.js | prepend: site.baseurl }}/jquery.js"></script>
+    <script src="{{ site.path.js | prepend: site.baseurl }}/jquery-ui.min.js"></script>
 
     <!-- Page scripts -->
-    <link rel="stylesheet" href="/assets/plugins/layerslider/css/layerslider.css" type="text/css">
+    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/layerslider/css/layerslider.css" type="text/css">
 
 </head>

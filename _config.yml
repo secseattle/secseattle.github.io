@@ -5,18 +5,24 @@ description: Sterling Electrical Contractors provides electrical and excavation 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "secseattle.github.io" # the base hostname & protocol for your site
 github_username: "secseattle"
+phone_number: (206)-123-4567
+address: 123 Main Street, Everett, WA 98290
 
 # Build settings
 markdown: kramdown
 
 # Custom Variables
-
-main:
-    plugins: "assets/plugins"
-    css: "assets/css"
-    js: "assets/js"
-
 path:
-  plugins: "../assets/plugins"
-  css: "../assets/css"
-  js: "../assets/js"
+  plugins: "assets/plugins"
+  css: "assets/css"
+  js: "assets/js"
+  images: "assets/images"
+
+# Custom Collections
+collections:
+  members:
+    output: true
+  clients:
+    output: true
+  projects:
+    output: true

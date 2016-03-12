@@ -7,8 +7,8 @@ permalink: /services/
 #SEC services
 
 * Commercial
-  ![commercial](/images/secImages/sterlingCommercial.png)
+  ![commercial]({{ site.path.images | prepend: site.baseurl }}/secImages/sterlingCommercial.png)
 * Residential
-  ![residential](/images/secImages/sterlingResidential.png)
+  ![residential]({{ site.path.images | prepend: site.baseurl }}/secImages/sterlingResidential.png)
 * Excavation
-  ![excavation](/images/secImages/sterlingExcavation.png)
+  ![excavation]({{ site.path.images | prepend: site.baseurl }}/secImages/sterlingExcavation.png)

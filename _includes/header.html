@@ -41,8 +41,8 @@
                     <i class="fa fa-bars icon-custom"></i>
                 </button>
 
-                <a class="navbar-brand" href="/" title="Sterling Electrical Contractors of Seattle">
-                    <img src="/images/sec-logo-white.png" alt="Sterling Electrical Contractors of Seattle">
+                <a class="navbar-brand" href="{{ site.baseurl }}" title="{{ site.title }}">
+                    <img src="{{ site.path.images | prepend: site.baseurl }}/sec-logo-white.png" alt="{{ site.title }}">
                 </a>
             </div>
             <div class="navbar-collapse collapse">
@@ -62,7 +62,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="/">Home</a>
+                        <a href="{{ site.baseurl }}">Home</a>
                     </li>
                     <li>
                         <a href="/about">About</a>

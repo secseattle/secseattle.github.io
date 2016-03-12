@@ -46,9 +46,9 @@
                 <div class="col">
                    <h4>Contact us</h4>
                    <ul>
-                        <li>5th Avenue, New York - United States</li>
-                        <li>Phone: +10 724 1234 567</li>
-                        <li>Email: <a href="mailto:hello@example.com" title="Email Us">hello@example.com</a></li>
+                        <li>{{ site.address }}</li>
+                        <li>Phone: {{ site.phone_number }}</li>
+                        <li>Email: <a href="mailto:{{ site.email }}" title="Email Us">{{ site.email }}</a></li>
                     </ul>
                  </div>
 
@@ -82,7 +82,7 @@
                 <div class="col">
                     <h4>About us</h4>
                     <p class="no-margin">
-                    Sterling Electrical Contractors
+                      {{ site.title }}
                     <br><br>
                     <a href="#" class="btn btn-block btn-base btn-icon fa-check"><span>Try it now</span></a>
 
@@ -95,12 +95,11 @@
 
         <div class="row">
             <div class="col-lg-9 copyright">
-                2016 © Sterling Electrical Contractors. All rights reserved.
+                2016 © {{ site.title }}. All rights reserved.
                 <a href="/terms">Terms and conditions</a>
             </div>
             <div class="col-lg-3">
-                <a href="/" title="Sterling Electrical Contractors of Seattle" class="navbar-brand">
-                    <!-- <img src="/images/sec-logo-white.png" alt="Sterling Electrical Contractors of Seattle" class="pull-right"> -->
+                <a href="{{ site.baseurl }}" title="{{ site.title }}" class="navbar-brand">
                     Home
                 </a>
             </div>
