@@ -11,7 +11,12 @@ markdown: kramdown
 
 # Custom Variables
 
+main:
+    plugins: "assets/plugins"
+    css: "assets/css"
+    js: "assets/js"
+
 path:
-  plugins: "assets/plugins"
-  css: "assets/css"
-  js: "assets/js"
+  plugins: "../assets/plugins"
+  css: "../assets/css"
+  js: "../assets/js"
