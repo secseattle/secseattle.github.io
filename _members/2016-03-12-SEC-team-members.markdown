@@ -1,5 +1,5 @@
 ---
-layout: members
+layout: member
 title:  "SEC Team Members"
 date:   2016-03-12 16:46:47 -0800
 ---
