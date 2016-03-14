@@ -1,5 +1,6 @@
 # Site settings
 title: Sterling Electrical Contractors | Seattle
+company: Sterling Electrical Contractors
 email: aaron@secseattle.com
 description: Sterling Electrical Contractors provides electrical and excavation work for commercial and residential.
 baseurl: "/" # the subpath of your site, e.g. /blog/
