@@ -1,7 +1,7 @@
 var map;
 
 function initialize() {
-  var myLatlng = new google.maps.LatLng(44.4325, 26.1039);
+  var myLatlng = new google.maps.LatLng(47.8194574,-122.3171289);
   var mapOptions = {
     zoom: 12,
 	scrollwheel: false,
@@ -16,15 +16,15 @@ function initialize() {
 	  animation: google.maps.Animation.DROP,
       title: 'Hello World!'
   });
-  
+
   var contentString = '<div class="info-window-content"><h2>Web Pixels</h2>'+
   					  '<h3>Designing forward</h3>'+
 					  '<p>Some more details for directions or company informations...</p></div>';
-					  
+
   var infowindow = new google.maps.InfoWindow({
       content: contentString
   });
-  
+
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map,marker);
   });
