@@ -5,6 +5,8 @@ description: Sterling Electrical Contractors provides electrical and excavation 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "secseattle.github.io" # the base hostname & protocol for your site
 github_username: "secseattle"
+linked_in: ""
+yelp_username: ""
 phone_number: (206)-123-4567
 address: 123 Main Street, Everett, WA 98290
 total_clients: 200
