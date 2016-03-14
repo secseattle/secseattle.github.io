@@ -3,6 +3,30 @@
   <!-- HEADER -->
   <div id="divHeaderWrapper">
     <header class="header-standard-2">
+      <div class="top-header top-header-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span class="aux-text hidden-xs">
+                        {{ site.company }}: {{ site.email }} or {{ site.phone_number }}
+                    </span>
+                    <nav class="top-header-menu">
+                        <ul class="top-menu">
+                            <li>
+                              <!--Proview Badge Code Start -->
+                              <a href="http://www.thebluebook.com/iProView/806832" style="text-decoration:none; color:inherit;position:absolute;right: 25px;" target="_blank">
+                                  <img src="http://www.thebluebook.com/assets/img/badges/proview-badge-lg.png?qp=806832" border="0" title="Qualify Us Now! ProView" alt="Qualify Us Now! ProView" height="32" width="101" hspace="0" vspace="0" />
+                              </a>
+                              <!--Proview Badge Code END -->
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
       <!-- MAIN NAV -->
       <div class="navbar navbar-wp navbar-arrow mega-nav" role="navigation">
           <div class="container">
@@ -10,6 +34,9 @@
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                       <i class="fa fa-bars icon-custom"></i>
                   </button>
+
+
+
 
                   <a class="navbar-brand" href="{{ site.baseurl }}" title="{{ site.title }}">
                       <img src="{{ site.path.images | prepend: site.baseurl }}/sec-logo-white.png" alt="{{ site.title }}">
@@ -38,7 +65,7 @@
                           <a href="/about">About</a>
                       </li>
                       <li class="dropdown dropdown-meganav mega-dropdown-fluid">
-                        <a href="{{ site.path.services }}" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                        <a href="{{ site.path.services.root }}" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                         <ul class="dropdown-menu">
                             <div class="container-fluid">
                                 <div class="row">
@@ -53,7 +80,7 @@
                                     <div class="col-md-4 mega-nav-section-wr">
                                         <div class="mega-nav-section">
                                           <a href="{{ site.path.services.residential }}">
-                                            <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/sterlingResidential.png" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                            <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/sterlingResidential.png" class="img-responsive img-thumbnail hidden-xs hidden-sm hidden-xs hidden-sm" alt="">
                                             <h3 class="mega-nav-section-title">Sterling Residential</h3>
                                           </a>
                                         </div>
@@ -78,6 +105,9 @@
                       </li>
                       <li>
                           <a href="/FAQ">FAQ</a>
+                      </li>
+                      <li>
+                          <a href="/contact">Contact</a>
                       </li>
                       <li class="dropdown dropdown-aux animate-click" data-animate-in="animated bounceInUp" data-animate-out="animated fadeOutDown" style="z-index:500;">
                           <a href="#" class="dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
