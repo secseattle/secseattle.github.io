@@ -1,5 +1,5 @@
 ---
-layout: jobs
+layout: page-jobs
 title:  "Jobs Page"
 permalink: /jobs/
 ---

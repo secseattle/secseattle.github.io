@@ -19,6 +19,7 @@ path:
   css: "assets/css"
   js: "assets/js"
   images: "assets/images"
+  services: "/services"
 
 # Custom Collections
 collections:

@@ -1,5 +1,5 @@
 ---
-layout: terms
+layout: page-terms
 title: Terms and Conditions
 permalink: /terms/
 ---

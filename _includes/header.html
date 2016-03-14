@@ -37,8 +37,38 @@
                       <li>
                           <a href="/about">About</a>
                       </li>
-                      <li>
-                          <a href="/services">Services</a>
+                      <li class="dropdown dropdown-meganav mega-dropdown-fluid">
+                        <a href="{{ site.path.services }}" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4 mega-nav-section-wr">
+                                        <div class="mega-nav-section">
+                                          <a href="{{ site.path.services.commercial }}">
+                                            <img src="{{ site.path.images }}/secImages/sterlingCommercial.png" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                            <h3 class="mega-nav-section-title">Sterling Commercial</h3>
+                                          </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mega-nav-section-wr">
+                                        <div class="mega-nav-section">
+                                          <a href="{{ site.path.services.residential }}">
+                                            <img src="{{ site.path.images }}/secImages/sterlingResidential.png" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                            <h3 class="mega-nav-section-title">Sterling Residential</h3>
+                                          </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mega-nav-section-wr">
+                                        <div class="mega-nav-section">
+                                          <a href="{{ site.path.services.excavation }}">
+                                            <img src="{{ site.path.images }}/secImages/sterlingExcavation.png" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                            <h3 class="mega-nav-section-title">Sterling Excavation</h3>
+                                          </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
                       </li>
                       <li>
                           <a href="/projects">Projects</a>
