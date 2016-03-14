@@ -22,7 +22,11 @@ path:
   css: "assets/css"
   js: "assets/js"
   images: "assets/images"
-  services: "/services"
+  services:
+    root: "/services"
+    residential: "/service/residential"
+    commercial: "/services/commercial"
+    excavation: "/services/excavation"
 
 # Custom Collections
 collections:
