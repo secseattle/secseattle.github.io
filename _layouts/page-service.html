@@ -1,0 +1,41 @@
+---
+layout: subpage
+---
+
+<section class="slice bg-white bb">
+  <div class="wp-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <div id="workCarousel" class="carousel carousel-4 slide color-two-l" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators hide">
+                          <li data-target="#homepageCarousel" data-slide-to="0" class="active"></li>
+                      </ol>
+
+                      <div class="carousel-inner">
+                          <div class="item item-dark active">
+                              <img src="{{ site.path.images | prepend: site.baseurl }}{{ page.image }}" alt="" class="img-responsive">
+                          </div>
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#workCarousel" data-slide="prev">
+                          <i class="fa fa-angle-left"></i>
+                      </a>
+                      <a class="right carousel-control" href="#workCarousel" data-slide="next">
+                          <i class="fa fa-angle-right"></i>
+                      </a>
+
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="vertical-info">
+                      <h4>{{ page.title }}</h4>
+                      <p class="delimiter">{{ page.text }}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

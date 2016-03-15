@@ -3,6 +3,7 @@ title: Sterling Electrical Contractors | Seattle
 company: Sterling Electrical Contractors
 email: aaron@secseattle.com
 description: Sterling Electrical Contractors provides electrical and excavation work for commercial and residential.
+about: At Sterling Electrical Contractors we know you have many choices to serve your electrical needs. We separate ourselves from our competitors by placing our customers first - that’s why we have so many smiling customers, rave reviews and enthusiastic referrals.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "secseattle.github.io" # the base hostname & protocol for your site
 github_username: "secseattle"
@@ -25,7 +26,7 @@ path:
   images: "assets/images"
   services:
     root: "/services"
-    residential: "/service/residential"
+    residential: "/services/residential"
     commercial: "/services/commercial"
     excavation: "/services/excavation"
 
