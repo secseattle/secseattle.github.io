@@ -32,11 +32,15 @@ path:
 
 # Custom Collections
 collections:
-  members:
-    output: true
-  clients:
-    output: true
   projects:
     output: true
-  jobs:
+    permalink: /projects/:path/
+  careers:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
