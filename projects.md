@@ -4,40 +4,31 @@ title: SEC Projects
 permalink: /projects/
 
 projects:
-  chickfila:
-    title: "Chick-Fil-A"
+  - title: "Chick-Fil-A"
     location: "Lynnwood, WA"
     image: "/secChickFilA.JPG"
-  moctezumas:
-    title: "Moctezumas"
+  - title: "Moctezumas"
     location: "Tukwila, WA"
     image: "/secMoctezumas.jpg"
-  panerabread:
-    title: "Panera Bread"
+  - title: "Panera Bread"
     location: "Tulalip, WA"
     image: "/secPaneraBread.jpg"
-  lynnwoodcrossroads:
-    title: "Lynwood Crossroads"
+  - title: "Lynwood Crossroads"
     location: "Lynnwood, WA"
     image: "/secLynnwoodCrossroads.png"
-  charmingcharlie:
-    title: "Charming Charlie"
+  - title: "Charming Charlie"
     location: "Redmond, WA"
     image: "/secCharmingCharlie.jpg"
-  fiveguys:
-    title: "Five Guys"
+  - title: "Five Guys"
     location: "Lynnwood, WA"
     image: "/secFiveGuys.jpg"
-  pandaexpress:
-    title: "Panda Express"
+  - title: "Panda Express"
     location: "Multiple in WA"
     image: "/secPandaExpress.jpg"
-  greatclips:
-    title: "Great Clips"
+  - title: "Great Clips"
     location: "Multiple in WA"
     image: "/secGreatClips.jpg"
-  dickssporting:
-    title: "Dick's Sporting Goods"
+  - title: "Dick's Sporting Goods"
     location: "Federal Way, WA"
     image: "/secDicksSporting.jpg"
 ---
