@@ -1,9 +1,5 @@
 ---
-layout: page-jobs
+layout: page-careers
 title:  "Jobs Page"
-permalink: /jobs/
+permalink: /careers/
 ---
-
-#SEC Jobs
-
-##Come work for us!
