@@ -69,15 +69,17 @@
                         <ul class="dropdown-menu">
                             <div class="container-fluid">
                                 <div class="row">
+                                  {% for service in site.services %}
                                     <div class="col-md-4 mega-nav-section-wr">
                                         <div class="mega-nav-section">
-                                          <a href="{{ site.path.services.commercial | prepend: site.baseurl }}"><!-- Not sure why this isn't working. Dev console shows nothing in href -->
-                                            <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/sterlingCommercial.png" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                          <a href="{{ site.baseurl }}{{ service.url | remove_first: '/' }}">
+                                            <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/{{ service.image }}" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
                                             <h3 class="mega-nav-section-title">Sterling Commercial</h3>
                                           </a>
                                         </div>
                                     </div>
-                                    <div class="col-md-4 mega-nav-section-wr">
+                                    {% endfor %}
+                                    <!-- <div class="col-md-4 mega-nav-section-wr">
                                         <div class="mega-nav-section">
                                           <a href="{{ site.path.services.residential | prepend: site.baseurl }}">
                                             <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/sterlingResidential.png" class="img-responsive img-thumbnail hidden-xs hidden-sm hidden-xs hidden-sm" alt="">
@@ -92,7 +94,7 @@
                                             <h3 class="mega-nav-section-title">Sterling Excavation</h3>
                                           </a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </ul>
