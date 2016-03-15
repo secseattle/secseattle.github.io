@@ -1,5 +1,5 @@
 .idea
-
+_sass
 _site
 .sass-cache
 Gemfile.lock
