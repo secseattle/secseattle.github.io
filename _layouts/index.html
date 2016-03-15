@@ -29,7 +29,7 @@ layout: default
       <!-- Slide 1 -->
       <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
           <!-- slide background -->
-          <img src="{{ site.path.images | prepend: site.baseurl}}/skyline.jpg" class="ls-bg" alt="Slide background"/>
+          <img src="{{ site.path.images | prepend: site.baseurl}}/skyscrapers_night_seattle.jpg" class="ls-bg" alt="Slide background"/>
 
           <!-- Left Text -->
           <h3 class="ls-l title-lg c-white text-shadow text-uppercase text-center strong" style="width:100%; top:25%; left:50%;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
@@ -88,11 +88,12 @@ layout: default
 {% include services.html %}
 <!-- services.html shows sterling services -->
 
+{% if site.quote %}
+  {% include quote-banner.html %}
+{% endif %}
+
 {% include customerCount.html %}
 <!-- customerCount.html shows how many customers and finished projects -->
-
-<!-- {% include team.html %} -->
-<!-- team includes a banner with team members -->
 
 <!-- Main content was here -->
 <!-- FOOTER was here-->

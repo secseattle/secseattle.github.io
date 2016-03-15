@@ -15,6 +15,7 @@ city: Lynnwood, WA
 hours: "8am - 4pm"
 total_clients: 200
 total_projects: 300
+quote: "This is an inspirational quote"
 
 # Build settings
 markdown: kramdown
@@ -38,6 +39,7 @@ collections:
     permalink: /projects/:path/
   careers:
     output: true
+    permalink: /career/:path/
 
 defaults:
   - scope:

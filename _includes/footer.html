@@ -2,9 +2,9 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="col">
-                   <h4>Contact us</h4>
+                   <h4><u>Contact us</u></h4>
                    <ul>
                         <li>{{ site.address }}</li>
                         <li>Phone: {{ site.phone_number }}</li>
@@ -12,37 +12,20 @@
                     </ul>
                  </div>
             </div>
-            <div class="col-md-3">
-                <div class="col">
-                    <h4>Mailing list</h4>
-                    <p>Sign up if you would like to receive occasional treats from us.</p>
-                    <form class="form-horizontal form-light">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your email address...">
-                            <span class="input-group-btn">
-                                <button class="btn btn-base" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
-                </div>
+            <div class="col-md-4">
+               <div class="col">
+                   <h4><u>About us</u></h4>
+                   <p class="no-margin">
+                     {{ site.description }}
+                   </p>
+               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="col col-social-icons">
-                    <h4>Follow us</h4>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-            </div>
-             <div class="col-md-3">
-                <div class="col">
-                    <h4>About us</h4>
-                    <p class="no-margin">
-                      {{ site.title }}
-                    <br><br>
-                    <a href="#" class="btn btn-block btn-base btn-icon fa-check"><span>Try it now</span></a>
-                    </p>
+                    <h4><u>Follow us</u></h4>
+                    <a href="https://www.linkedin.com/{{ site.linked_in }}"><i class="fa fa-linkedin"></i></a>
+                    <a href="http://www.yelp.com/{{ site.yelp_username }}"><i class="fa fa-yelp"></i></a>
+                    <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
                 </div>
             </div>
         </div>

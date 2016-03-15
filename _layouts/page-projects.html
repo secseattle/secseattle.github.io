@@ -34,7 +34,7 @@ layout: subpage
                                   <div class="figcaption bg-base"></div>
                                   <div class="figcaption-btn">
                                       <a href="{{ site.path.images | prepend: site.baseurl }}{{ project.image }}" class="btn btn-lg btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
-                                      <a href="{{ project.file-name }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
+                                      <a href="{{ site.baseurl }}{{ project.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
                                   </div>
                               </div>
                               <div class="row">

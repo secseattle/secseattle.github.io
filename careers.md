@@ -1,5 +1,5 @@
 ---
 layout: page-careers
-title:  "Jobs Page"
+title:  "Careers Page"
 permalink: /careers/
 ---
