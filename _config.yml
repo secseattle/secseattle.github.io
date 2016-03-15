@@ -1,17 +1,42 @@
 # Site settings
 title: Sterling Electrical Contractors | Seattle
+company: Sterling Electrical Contractors
 email: aaron@secseattle.com
 description: Sterling Electrical Contractors provides electrical and excavation work for commercial and residential.
+about: At Sterling Electrical Contractors we know you have many choices to serve your electrical needs. We separate ourselves from our competitors by placing our customers first - that’s why we have so many smiling customers, rave reviews and enthusiastic referrals.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "secseattle.github.io" # the base hostname & protocol for your site
 github_username: "secseattle"
+linked_in: "company/sterling-electrical-contractors"
+yelp_username: "biz/sterling-electrical-contractors-seattle"
+phone_number: (206)-123-4567
+address: 6125 200th St SW, Lynnwood, WA 98036
+hours: "8am - 4pm"
+total_clients: 200
+total_projects: 300
 
 # Build settings
 markdown: kramdown
 
 # Custom Variables
-
 path:
   plugins: "assets/plugins"
   css: "assets/css"
   js: "assets/js"
+  images: "assets/images"
+  services:
+    root: "services"
+    residential: "services/residential"
+    commercial: "services/commercial"
+    excavation: "services/excavation"
+
+# Custom Collections
+collections:
+  members:
+    output: true
+  clients:
+    output: true
+  projects:
+    output: true
+  jobs:
+    output: true

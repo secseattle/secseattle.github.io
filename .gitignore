@@ -1,8 +1,5 @@
 .idea
-<<<<<<< HEAD
-
-=======
+_sass
 _site
 .sass-cache
 Gemfile.lock
->>>>>>> gh-pages
