@@ -1,0 +1,40 @@
+---
+layout: subpage
+---
+
+<section class="slice bg-white">
+    <div class="wp-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-listings-2">
+                        {% for career in site.careers %}
+                        <li class="">
+                            <div class="listing-image">
+                                <img src="{{ site.path.images | prepend: site.baseurl }}/sec-logo-white.png" class="img-responsive" alt="">
+                                <a href="{{ site.baseurl }}{{ career.url | remove_first: '/' }}" class="btn btn-lg btn-square btn-light btn-block-bm btn-icon btn-icon-go">See more</a>
+                            </div>
+                            <div class="cell">
+                                <div class="listing-body clearfix">
+                                    <h3><a href="#">{{ career.title }} {{ site.careers.path }}</a></h3>
+                                    <h4>{{ site.title }}</h4>
+                                    <p>
+                                      {{ career.description }}
+                                    </p>
+                                </div>
+                                <div class="listing-footer">
+                                    <ul class="aux-info">
+                                        <li><i class="fa fa-calendar"></i><strong>Date:</strong> {{ career.date | date: "%-d %b %Y" }}</li>
+                                        <li><i class="fa fa-globe"></i><strong>City:</strong> {{ site.city }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>

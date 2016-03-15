@@ -11,9 +11,11 @@ linked_in: "company/sterling-electrical-contractors"
 yelp_username: "biz/sterling-electrical-contractors-seattle"
 phone_number: (206)-123-4567
 address: 6125 200th St SW, Lynnwood, WA 98036
+city: Lynnwood, WA
 hours: "8am - 4pm"
 total_clients: 200
 total_projects: 300
+quote: "This is an inspirational quote"
 
 # Build settings
 markdown: kramdown
@@ -32,11 +34,16 @@ path:
 
 # Custom Collections
 collections:
-  members:
-    output: true
-  clients:
-    output: true
   projects:
     output: true
-  jobs:
+    permalink: /projects/:path/
+  careers:
     output: true
+    permalink: /career/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page

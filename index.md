@@ -7,8 +7,3 @@ text:
   residential: "We do residential!"
   excavation: "We do excavation!"
 ---
-
-
-#Welcome
-
-##This is SEC

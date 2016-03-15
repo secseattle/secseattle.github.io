@@ -1,0 +1,80 @@
+---
+layout: subpage
+---
+<section class="slice bg-white">
+  <div class="wp-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <ul class="list-listings-2">
+                      <li class="">
+                          <div class="listing-image">
+                              <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/career-posting.jpg" class="img-responsive" alt="">
+                              <a href="{{ page.application-link }}" class="btn btn-lg btn-square btn-alt btn-block-bm btn-icon btn-icon-go" hidefocus="true">Apply now</a>
+                          </div>
+                          <div class="cell">
+                              <div class="listing-body clearfix">
+                                  <h3><a href="#" hidefocus="true" style="outline: none;">{{ page.title }}</a></h3>
+                                  <h4>{{ site.title }}</h4>
+                                  <p>
+                                    {{ page.description }}
+                                  </p>
+                              </div>
+                              <div class="listing-footer">
+                                  <ul class="aux-info">
+                                      <li><i class="fa fa-calendar"></i><strong>Date:</strong> {{ page.date | date: "%-d %b %Y" }}</li>
+                                      <li><i class="fa fa-globe"></i><strong>City:</strong> {{ site.city }}</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+
+                  <div class="section-title-wr">
+                      <h3 class="section-title left"><span>Overview</span></h3>
+                  </div>
+                  <p>
+                    {{ page.description }}
+                  </p>
+
+                  <hr>
+
+                  <div class="section-title-wr">
+                      <h3 class="section-title left"><span>Responsabilities</span></h3>
+                  </div>
+                  {{ page.attach }}
+
+                  <hr>
+
+                  {% if page.qualifications %}
+                  <div class="section-title-wr">
+                      <h3 class="section-title left"><span>Qualifications</span></h3>
+                  </div>
+                  {{ page.qualifications }}
+
+                  <hr>
+                  {% endif %}
+
+                  <div class="section-title-wr">
+                      <h3 class="section-title left"><span>What do we offer</span></h3>
+                  </div>
+                  <p>
+                    {{ page.benefits }}
+                  </p>
+
+              </div>
+              <div class="col-md-4">
+                  <!-- MAP -->
+                  <div class="panel panel-default panel-sidebar-1">
+                      <div class="panel-heading"><h2>Location</h2></div>
+                      <div id="mapCanvas" class="map-canvas-square"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Sripts for individual pages, depending on what plug-ins are used -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="{{ site.path.js | prepend: site.baseurl }}/gmaps/google-maps-default.js"></script>
