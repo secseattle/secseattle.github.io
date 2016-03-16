@@ -31,14 +31,16 @@ layout: subpage
                   </div>
                   <div class="col-md-6">
                       <div class="vertical-info">
+                        {% if page.category %}
                           <h4>Category</h4>
                           <p class="delimiter">
                           {{ page.category }}
                           </p>
+                        {% endif %}
 
                           <h4>Client</h4>
                           <p class="delimiter">
-                          {{ page.title }}
+                          <strong>{{ page.title }}</strong>
                           </p>
 
                       </div>
