@@ -24,148 +24,25 @@ layout: subpage
                     <div class="section-title-wr">
                         <h3 class="section-title left"><span>How do we work</span></h3>
                     </div>
-
                     <div class="panel-group" id="accordionThree">
+                      {% assign counter = 0 %}
+                      {% for num in page.questions %}
+                        {% assign counter = counter | plus: 1 %}
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapse3a">
-                                    {{ page.questions.q1 }}
+                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapse{{ counter }}">
+                                    {{ num.question }}
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse3a" class="panel-collapse collapse in">
+                            <div id="collapse{{ counter }}" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                  {{ page.answers.a1 }}
+                                  {{ num.answer }}
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapse3b">
-                                    {{ page.questions.q2 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse3b" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a2 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapse3c">
-                                    {{ page.questions.q3 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse3c" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a3 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseFour">
-                                    {{ page.questions.q4 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a4 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseFive">
-                                    {{ page.questions.q5 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a5 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseSix">
-                                    {{ page.questions.q6 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSix" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a6 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseSeven">
-                                    {{ page.questions.q7 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseSeven" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a7 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseEight">
-                                    {{ page.questions.q8 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseEight" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a8 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseNine">
-                                    {{ page.questions.q9 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseNine" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a9 }}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseTen">
-                                    {{ page.questions.q10 }}
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTen" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                  {{ page.answers.a10 }}
-                                </div>
-                            </div>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
 

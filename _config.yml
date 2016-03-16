@@ -36,7 +36,7 @@ slider_text5: "is ready to be part of your project. Let's get started"
 
 ############## Don't Edit below this line ####################
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://secseattle.github.io" # the base hostname & protocol for your site
+url: "secseattle.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
