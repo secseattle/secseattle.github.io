@@ -2,6 +2,6 @@
 title: Sterling Commercial
 layout: page-service
 permalink: /services/commercial/
-image: "sterlingCommercial.png"
+image: "secCommercial.jpg"
 text: "Insert text blurb here"
 ---

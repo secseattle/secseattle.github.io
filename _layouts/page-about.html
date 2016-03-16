@@ -53,5 +53,6 @@ layout: subpage
         </div>
     </div>
 </sectoin>
-
-{% include customerReview.html %}
+{% if page.review %}
+  {% include customerReview.html %}
+{% endif %}
