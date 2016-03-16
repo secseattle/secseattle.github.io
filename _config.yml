@@ -17,6 +17,11 @@ hours: "8am - 4pm"
 total_clients:
 total_projects:
 quote: "This is an inspirational quote"
+slider_text1: "Honesty. Value. Integrity"
+slider_text2: "The secret of getting ahead is getting <strong>started</strong>"
+slider_text3: "is ready to be part of your project. Let's get started"
+slider_text4: "The secret of getting ahead is getting <strong>started</strong>"
+slider_text5: "is ready to be part of your project. Let's get started"
 
 # Build settings
 markdown: kramdown
@@ -39,6 +44,9 @@ collections:
   services:
     output: true
     permalink: /services/:path/
+  offers:
+    output: true
+    permalink: /offers/:path/
 
 defaults:
   - scope:
