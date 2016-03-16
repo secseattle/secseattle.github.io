@@ -1,5 +1,5 @@
 ---
-title: Excavation Services
+title: Sterling Excavation
 layout: page-service
 permalink: /services/excavation/
 image: "sterlingExcavation.png"

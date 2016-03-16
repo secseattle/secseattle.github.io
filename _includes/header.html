@@ -7,17 +7,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <span class="aux-text hidden-xs">
-                        {{ site.company }}: {{ site.email }} or {{ site.phone_number }}
+                    <span class="aux-text ">
+                        {{ site.company }} - {{ site.email }} - {{ site.phone_number }}
                     </span>
-                    <nav class="top-header-menu">
+                    <nav class="top-header-menu ">
                         <ul class="top-menu">
+
+
+
                             <li>
-                              <!--Proview Badge Code Start -->
-                              <a href="http://www.thebluebook.com/iProView/806832" style="text-decoration:none; color:inherit;position:absolute;right: 25px;" target="_blank">
-                                  <img src="http://www.thebluebook.com/assets/img/badges/proview-badge-lg.png?qp=806832" border="0" title="Qualify Us Now! ProView" alt="Qualify Us Now! ProView" height="32" width="101" hspace="0" vspace="0" />
-                              </a>
-                              <!--Proview Badge Code END -->
+                              License: {{ site.license }}
                             </li>
 
 
@@ -44,20 +43,7 @@
               </div>
               <div class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
-                      <li class="hidden-md hidden-lg">
-                          <div class="bg-light-gray">
-                              <form class="form-horizontal form-light p-15" role="form">
-                                  <div class="input-group input-group-lg">
-                                      <input type="text" class="form-control" placeholder="I want to find ...">
-                                      <span class="input-group-btn">
-                                          <button class="btn btn-white" type="button">
-                                              <i class="fa fa-search"></i>
-                                          </button>
-                                      </span>
-                                  </div>
-                              </form>
-                          </div>
-                      </li>
+
                       <li>
                           <a href="{{ site.baseurl }}">Home</a>
                       </li>
@@ -70,11 +56,11 @@
                             <div class="container-fluid">
                                 <div class="row">
                                   {% for service in site.services %}
-                                    <div class="col-md-4 mega-nav-section-wr">
+                                    <div class="col-md-3 mega-nav-section-wr">
                                         <div class="mega-nav-section">
                                           <a href="{{ site.baseurl }}{{ service.url | remove_first: '/' }}">
-                                            <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/{{ service.image }}" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
-                                            <h3 class="mega-nav-section-title">Sterling Commercial</h3>
+                                            <img src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ service.image }}" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                            <h3 class="mega-nav-section-title">{{ service.title }}</h3>
                                           </a>
                                         </div>
                                     </div>

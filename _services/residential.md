@@ -1,5 +1,5 @@
 ---
-title: Residential Services
+title: Sterling Residential
 layout: page-service
 permalink: /services/residential/
 image: "sterlingResidential.png"

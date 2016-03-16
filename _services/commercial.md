@@ -1,5 +1,5 @@
 ---
-title: Commercial Services
+title: Sterling Commercial
 layout: page-service
 permalink: /services/commercial/
 image: "sterlingCommercial.png"
