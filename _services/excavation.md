@@ -2,6 +2,6 @@
 title: Sterling Excavation
 layout: page-service
 permalink: /services/excavation/
-image: "sterlingExcavation.png"
+image: "secExcavation.jpg"
 text:  "Insert text blurb here"
 ---

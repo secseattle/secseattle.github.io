@@ -5,8 +5,8 @@ permalink: /about/
 text:
   ourHistory: "Our History"
   historyContent: "Content"
-review: "This is a review"
-reviewAuthor: "John Doe"
+review:
+reviewAuthor: 
 ---
 
 At Sterling Electrical Contractors we know you have many choices to serve your electrical needs. We separate ourselves from our competitors by placing our customers first - that’s why we have so many smiling customers, rave reviews and enthusiastic referrals.
