@@ -1,0 +1,92 @@
+<section class="slice relative bg-white bb animate-hover-slide">
+    <div class="wp-section">
+        <div class="container">
+            <div class="section-title-wr">
+                <h3 class="section-title left"><span>Our portfolio</span></h3>
+            </div>
+
+            <div id="carouselWork" class="carousel carousel-3 slide animate-hover-slide">
+                <div class="carousel-nav">
+                    <a data-slide="prev" class="left" href="#carouselWork"><i class="fa fa-angle-left"></i></a>
+                    <a data-slide="next" class="right" href="#carouselWork"><i class="fa fa-angle-right"></i></a>
+                </div>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                          {% for project in site.projects limit: 3 %}
+                            <div class="mix col-lg-4 col-md-4 col-sm-6">
+                                <div class="wp-block inverse">
+                                    <div class="figure">
+                                        <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ project.image }}" class="img-responsive">
+                                        <div class="figcaption bg-base"></div>
+                                        <div class="figcaption-btn">
+                                            <a href="{{ site.path.images | prepend: site.baseurl }}{{ project.image }}" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                            <a href="{{ site.baseurl }}{{ project.url | remove_first: '/' }}" class="btn btn-xs btn-b-white"><i class="fa fa-link"></i> View</a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-9">
+                                            <h2 class="text-left">{{ project.title }}</h2>
+                                            <small>{{ project.location }}</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          {% endfor %}
+                        </div>
+                    </div>
+                    <div class="item">
+                      <div class="row">
+                        {% for project in site.projects limit: 3 offset: 3 %}
+                          <div class="mix col-lg-4 col-md-4 col-sm-6">
+                              <div class="wp-block inverse">
+                                  <div class="figure">
+                                      <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ project.image }}" class="img-responsive">
+                                      <div class="figcaption bg-base"></div>
+                                      <div class="figcaption-btn">
+                                          <a href="{{ site.path.images | prepend: site.baseurl }}{{ project.image }}" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                          <a href="{{ site.baseurl }}{{ project.url | remove_first: '/' }}" class="btn btn-xs btn-b-white"><i class="fa fa-link"></i> View</a>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-9">
+                                          <h2 class="text-left">{{ project.title }}</h2>
+                                          <small>{{ project.location }}</small>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row">
+                        {% for project in site.projects limit: 3 offset: 6 %}
+                          <div class="mix col-lg-4 col-md-4 col-sm-6">
+                              <div class="wp-block inverse">
+                                  <div class="figure">
+                                      <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ project.image }}" class="img-responsive">
+                                      <div class="figcaption bg-base"></div>
+                                      <div class="figcaption-btn">
+                                          <a href="{{ site.path.images | prepend: site.baseurl }}{{ project.image }}" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                          <a href="{{ site.baseurl }}{{ project.url | remove_first: '/' }}" class="btn btn-xs btn-b-white"><i class="fa fa-link"></i> View</a>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-xs-9">
+                                          <h2 class="text-left">{{ project.title }}</h2>
+                                          <small>{{ project.location }}</small>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

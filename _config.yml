@@ -13,8 +13,8 @@ phone_number: (206)-123-4567
 address: 6125 200th St SW, Lynnwood, WA 98036
 city: Lynnwood, WA
 hours: "8am - 4pm"
-total_clients: 200
-total_projects: 300
+total_clients:
+total_projects:
 quote: "This is an inspirational quote"
 
 # Build settings
@@ -26,11 +26,6 @@ path:
   css: "assets/css"
   js: "assets/js"
   images: "assets/images"
-  services:
-    root: "services"
-    residential: "services/residential"
-    commercial: "services/commercial"
-    excavation: "services/excavation"
 
 # Custom Collections
 collections:
@@ -40,6 +35,9 @@ collections:
   careers:
     output: true
     permalink: /career/:path/
+  services:
+    output: true
+    permalink: /services/:path/
 
 defaults:
   - scope:
