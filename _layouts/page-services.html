@@ -2,4 +2,57 @@
 layout: subpage
 ---
 
-{% include services-segment.html %}
+
+<section class="slice bg-base">
+  <div class="wp-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h2>{{ page.title }} provides...</h2>
+                        <span class="clearfix"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="slice bg-white animate-hover-slide">
+      <div class="wp-section work">
+          <div class="container">
+
+
+              <div class="row">
+                  <div id="ulSorList">
+
+                      {% for service in site.services %}
+                      <div class="mix col-lg-4 col-md-4 col-sm-6">
+                          <div class="wp-block inverse">
+                              <div class="figure">
+                                  <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ service.image }}" class="img-responsive" />
+                                  <div class="figcaption bg-base"></div>
+                                  <div class="figcaption-btn">
+                                      <a href="{{ site.baseurl }}{{ service.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-xs-9">
+                                      <h2>{{ service.title }}</h2>
+                                      <small>{{ service.text }}</small>
+                                  </div>
+                                  <div class="col-xs-3">
+
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      {% endfor %}
+                      <div class="gap"></div>
+                  </div>
+              </div>
+        </div>
+      </div>
+  </section>
