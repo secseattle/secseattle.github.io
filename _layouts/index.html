@@ -58,13 +58,14 @@ layout: default
 <!-- this shows a banner with SEC services. Descritions can be changed in index.md -->
 {% include services-segment.html %}
 
-<!-- portfolio-banner includes banner on home page with portfolio of projects -->
-{% include portfolio-banner.html %}
-
 <!-- if a quote is added to _config.yml, a quote will appear on the home page in a banner with paralak scroll image -->
 {% if site.quote %}
   {% include quote-banner.html %}
 {% endif %}
+
+<!-- portfolio-banner includes banner on home page with portfolio of projects -->
+{% include portfolio-banner.html %}
+
 
 <!-- _config.yml has counts for customers and projects, these will show on the home page in a banner if numbers are added -->
 {% if site.total_clients %}

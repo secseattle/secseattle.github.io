@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <span class="aux-text hidden-xs">
+                    <span class="aux-text ">
                         {{ site.company }}: {{ site.email }} or {{ site.phone_number }}
                     </span>
                     <nav class="top-header-menu">
@@ -44,20 +44,7 @@
               </div>
               <div class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
-                      <li class="hidden-md hidden-lg">
-                          <div class="bg-light-gray">
-                              <form class="form-horizontal form-light p-15" role="form">
-                                  <div class="input-group input-group-lg">
-                                      <input type="text" class="form-control" placeholder="I want to find ...">
-                                      <span class="input-group-btn">
-                                          <button class="btn btn-white" type="button">
-                                              <i class="fa fa-search"></i>
-                                          </button>
-                                      </span>
-                                  </div>
-                              </form>
-                          </div>
-                      </li>
+
                       <li>
                           <a href="{{ site.baseurl }}">Home</a>
                       </li>
@@ -70,11 +57,11 @@
                             <div class="container-fluid">
                                 <div class="row">
                                   {% for service in site.services %}
-                                    <div class="col-md-4 mega-nav-section-wr">
+                                    <div class="col-md-3 mega-nav-section-wr">
                                         <div class="mega-nav-section">
                                           <a href="{{ site.baseurl }}{{ service.url | remove_first: '/' }}">
-                                            <img src="{{ site.path.images | prepend: site.baseurl }}/secImages/{{ service.image }}" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
-                                            <h3 class="mega-nav-section-title">Sterling Commercial</h3>
+                                            <img src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ service.image }}" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                            <h3 class="mega-nav-section-title">{{ service.title }}</h3>
                                           </a>
                                         </div>
                                     </div>
