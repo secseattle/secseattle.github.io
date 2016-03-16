@@ -22,16 +22,13 @@ layout: subpage
 <section class="slice bg-white animate-hover-slide">
       <div class="wp-section work">
           <div class="container">
-
-
               <div class="row">
                   <div id="ulSorList">
-
-                      {% for service in site.services %}
+                    {% for service in site.services %}
                       <div class="mix col-lg-4 col-md-4 col-sm-6">
                           <div class="wp-block inverse">
                               <div class="figure">
-                                  <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/secImages/{{ service.image }}" class="img-responsive" />
+                                  <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ service.image }}" class="img-responsive" />
                                   <div class="figcaption bg-base"></div>
                                   <div class="figcaption-btn">
                                       <a href="{{ site.baseurl }}{{ service.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
@@ -48,11 +45,34 @@ layout: subpage
                               </div>
                           </div>
                       </div>
-
                       {% endfor %}
                       <div class="gap"></div>
                   </div>
               </div>
-        </div>
+              <div class="row">
+                  <div>
+                    <div class="section-title-wr mb-40">
+                        <h3 class="section-title left">
+                            <span class="">What do we offer</span>
+                            <small class="">{{ site.company }}</small>
+                        </h3>
+                    </div>
+                      {% for offer in site.offers %}
+                        <div class="mix col-lg-4 col-md-4 col-sm-6">
+                          <div class="icon-block icon-block-1">
+                              <div class="icon-block-item">
+                                  <i class="fa {{ offer.fa-icon }}"></i>
+                              </div>
+                              <div class="icon-block-body">
+                                  <h4 class="">{{ offer.title }}</h4>
+                                  <p>{{ offer.description }}</p>
+                              </div>
+                          </div>
+                        </div>
+                      {% endfor %}
+                      <div class="gap"></div>
+                  </div>
+              </div>
+          </div>
       </div>
   </section>
