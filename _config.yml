@@ -1,7 +1,7 @@
 # Site settings
 title: Sterling Electrical Contractors | Seattle
 company: Sterling Electrical Contractors
-license: STERLEC910JL
+license: STERLEC859MS
 email: info@secseattle.com
 description: Sterling Electrical Contractors provides electrical and excavation work for commercial and residential.
 about: At Sterling Electrical Contractors we know you have many choices to serve your electrical needs. We separate ourselves from our competitors by placing our customers first - that’s why we have so many smiling customers, rave reviews and enthusiastic referrals.
@@ -10,7 +10,7 @@ url: "secseattle.github.io" # the base hostname & protocol for your site
 github_username: "secseattle"
 linked_in: "company/sterling-electrical-contractors"
 yelp_username: "biz/sterling-electrical-contractors-seattle"
-phone_number: (206)-123-4567
+phone_number: (425) 774-1903
 address: 6125 200th St SW, Lynnwood, WA 98036
 city: Lynnwood, WA
 hours: "8am - 4pm"
