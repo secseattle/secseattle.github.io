@@ -59,9 +59,6 @@ collections:
   services:
     output: true
     permalink: /services/:path/
-  offers:
-    output: true
-    permalink: /offers/:path/
 
 defaults:
   - scope:
