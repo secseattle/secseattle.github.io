@@ -17,7 +17,7 @@ layout: subpage
                                   <h3><a href="#" hidefocus="true" style="outline: none;">{{ page.title }}</a></h3>
                                   <h4>{{ site.title }}</h4>
                                   <p>
-                                    {{ page.description }}
+                                    {{ page.excerpt }}
                                   </p>
                               </div>
                               <div class="listing-footer">
@@ -30,38 +30,7 @@ layout: subpage
                       </li>
                   </ul>
 
-                  <div class="section-title-wr">
-                      <h3 class="section-title left"><span>Overview</span></h3>
-                  </div>
-                  <p>
-                    {{ page.description }}
-                  </p>
-
-                  <hr>
-
-                  <div class="section-title-wr">
-                      <h3 class="section-title left"><span>Responsabilities</span></h3>
-                  </div>
-                  {{ page.attach }}
-
-                  <hr>
-
-                  {% if page.qualifications %}
-                  <div class="section-title-wr">
-                      <h3 class="section-title left"><span>Qualifications</span></h3>
-                  </div>
-                  {{ page.qualifications }}
-
-                  <hr>
-                  {% endif %}
-
-                  <div class="section-title-wr">
-                      <h3 class="section-title left"><span>What do we offer</span></h3>
-                  </div>
-                  <p>
-                    {{ page.benefits }}
-                  </p>
-
+                  {{ content }}
               </div>
               <div class="col-md-4">
                   <!-- MAP -->
