@@ -5,8 +5,6 @@ title: Sterling Electrical Contractors
 company: Sterling Electrical Contractors
 license: STERLEC859MS
 email: info@secseattle.com
-description: Sterling Electrical Contractors provides electrical and excavation work for commercial and residential.
-about: At Sterling Electrical Contractors we know you have many choices to serve your electrical needs. We separate ourselves from our competitors by placing our customers first - that’s why we have so many smiling customers, rave reviews and enthusiastic referrals.
 phone_number: (425) 774-1903
 address: 6125 200th St SW, Lynnwood, WA 98036
 city: Lynnwood, WA
@@ -16,23 +14,6 @@ hours: "8am - 4pm"
 github_username: "secseattle"
 linked_in: "sterling-electrical-contractors"
 yelp_username: "sterling-electrical-contractors-seattle"
-
-#Component variables
-
-##This will add a counter component to the index page if filled in
-total_clients:
-total_projects:
-##This is the quote on the index page
-quote: "This is an inspirational quote"
-##The following are the text values for the main image slider on the index page
-### Slide 1
-slider_text1: "Honesty. Value. Integrity"
-### Slide 2
-slider_text2: "The secret of getting ahead is getting <strong>started</strong>"
-slider_text3: "is ready to be part of your project. Let's get started"
-### Slide 3
-slider_text4: "The secret of getting ahead is getting <strong>started</strong>"
-slider_text5: "is ready to be part of your project. Let's get started"
 
 ############## Don't Edit below this line ####################
 baseurl: "/" # the subpath of your site, e.g. /blog/

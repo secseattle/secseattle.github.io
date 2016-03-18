@@ -5,47 +5,34 @@ layout: default
 <!-- Importing slider content -->
 <section id="slider-wrapper" class="layer-slider-wrapper layer-slider-dynamic">
   <div id="layerslider" style="width:100%;height:520px;">
-      <!-- Slide 1 -->
+      <!-- Slides -->
+      {% assign counter = 0 %}
+      {% for slide in page.slider %}
       <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
           <!-- slide background -->
-          <img src="{{ site.path.images | prepend: site.baseurl}}/skyscrapers_night_seattle.jpg" class="ls-bg" alt="Slide background"/>
+          <img src="{{ site.path.images | prepend: site.baseurl}}/{{ slide.image }}" class="ls-bg" alt="Slide background"/>
 
           <!-- Left Text -->
-          <h3 class="ls-l title-lg c-white text-shadow text-uppercase text-center strong" style="width:100%; top:25%; left:50%;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-						{{ site.title }}
-          </h3>
-         <h3 class="ls-l title c-white text-wrapped black text-uppercase text-center strong" style="top:50%; left:50%;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1000;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-              {{ site.slider_text1 }}
-          </h3>
+          {% if counter == 0 %}
+            <h3 class="ls-l title-lg c-white text-shadow text-uppercase text-center strong" style="width:100%; top:25%; left:50%;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
+  						{{ slide.text1 }}
+            </h3>
+           <h3 class="ls-l title c-white text-wrapped black text-uppercase text-center strong" style="top:50%; left:50%;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1000;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
+                {{ slide.text2 }}
+            </h3>
+          {% else %}
+            <h3 class="ls-l title text-normal" style="width:600px; top:35%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
+                {{ slide.text1 }}
+            </h3>
+
+            <p class="ls-l text-standard" style="width:500px; top:50%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1000;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
+            {{ slide.text2}}
+            </p>
+          {% endif %}
       </div>
+      {% assign counter = counter | plus: 1 %}
+      {% endfor %}
 
-      <!-- Slide 2 -->
-      <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-          <!-- slide background -->
-          <img src="{{ site.path.images | prepend: site.baseurl}}/wires.jpg" class="ls-bg" style="width: 100%;" alt="Slide background"/>
-
-          <!-- Left Text -->
-          <h3 class="ls-l title text-normal" style="width:600px; top:35%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-              {{ site.slider_text2 }}
-          </h3>
-
-          <p class="ls-l text-standard" style="width:500px; top:50%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1000;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-          {{ site.title }} {{ site.slider_text3 }}
-          </p>
-      </div>
-      <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-          <!-- slide background -->
-          <img src="{{ site.path.images | prepend: site.baseurl}}/lightbulb.jpg" class="ls-bg" style="width: 100%;" alt="Slide background"/>
-
-          <!-- Left Text -->
-          <h3 class="ls-l title text-normal" style="width:600px; top:35%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-            {{ site.slider_text4 }}
-          </h3>
-
-          <p class="ls-l text-standard" style="width:500px; top:50%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1000;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-          {{ site.title }} {{ site.slider_text5 }}
-          </p>
-      </div>
 
   </div>
 </section>
