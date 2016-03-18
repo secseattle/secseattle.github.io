@@ -1,7 +1,7 @@
 var map;
 
 function initialize() {
-  var myLatlng = new google.maps.LatLng(47.8194574,-122.3171289);
+  var myLatlng = new google.maps.LatLng(47.817726,-122.316543);
   var mapOptions = {
     zoom: 12,
 	scrollwheel: false,
@@ -14,12 +14,12 @@ function initialize() {
       position: myLatlng,
       map: map,
 	  animation: google.maps.Animation.DROP,
-      title: 'Hello World!'
+      title: 'Sterling Electrical Contractors'
   });
 
-  var contentString = '<div class="info-window-content"><h2>Web Pixels</h2>'+
-  					  '<h3>Designing forward</h3>'+
-					  '<p>Some more details for directions or company informations...</p></div>';
+  var contentString = '<div class="info-window-content"><h2>Sterling Electrical Contractors</h2>'+
+  					  '<h3>We separate ourselves from our competitors by placing our customers first.</h3>'+
+					  '<p>We are located just off highway 99</p></div>';
 
   var infowindow = new google.maps.InfoWindow({
       content: contentString
