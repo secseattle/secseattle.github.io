@@ -48,60 +48,49 @@ layout: subpage
 
                 <div class="col-md-3">
                     <!-- TESTIMONIAL WIDGET -->
+                    {% if page.show-testimonials == "yes" %}
                     <div class="panel panel-default panel-sidebar-1">
-                        <div class="panel-heading"><h2>Video testimonial</h2></div>
+                        <div class="panel-heading"><h2>Testimonials</h2></div>
                         <div class="owl-carousel owl-carousel-single">
+
+                          {% for testimonial in page.testimonials %}
                             <div>
                                 <div class="wp-block testimonial style-1 base">
                                     <div class="wp-block-video">
                                         <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/80747086?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe>
+                                          {% if testimonial.link %}
+                                          <iframe class="embed-responsive-item" src="{{ testimonial.link }}"></iframe>
+                                          {% else %}
+                                            <img src="http://placehold.it/300x200">
+                                          {% endif %}
+
                                         </div>
                                     </div>
                                     <div class="wp-block-body">
                                         <p>
-                                            <i class="fa fa-quote-left"></i> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently.
+                                            <i class="fa fa-quote-left"></i>{{ testimonial.description }}
                                         </p>
                                     </div>
                                     <div class="testimonial-author light">
                                         <div class="author-img">
-                                            <img src="{{ site.path.images | prepend: site.baseurl}}/prv/person-3-75x75.png" alt="">
+                                          {% if testimonial.person-photo %}
+                                            <img src="{{ site.path.images | prepend: site.baseurl}}{{ testimonial.person-photo }}" alt="">
+                                          {% else %}
+                                            <img src="http://placehold.it/75x75">
+                                          {% endif %}
                                         </div>
                                         <div class="author-info">
-                                            <span class="author-name">Alexander Smith</span>
-                                            <small class="author-pos">CEO Company Inc</small>
+                                            <span class="author-name">{{ testimonial.person }}</span>
+                                            <small class="author-pos">{{ testimonial.company }}</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div>
-                                <div class="wp-block testimonial style-1 base">
-                                    <div class="wp-block-video">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe class="embed-responsive-item" src="http://player.vimeo.com/video/24837359?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"></iframe>
-                                        </div>
-                                    </div>
-                                    <div class="wp-block-body">
-                                        <p>
-                                            <i class="fa fa-quote-left"></i> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently.
-                                        </p>
-                                    </div>
-                                    <div class="testimonial-author light">
-                                        <div class="author-img">
-                                            <img src="{{ site.path.images | prepend: site.baseurl}}/prv/person-2-75x75.png" alt="">
-                                        </div>
-                                        <div class="author-info">
-                                            <span class="author-name">Michael Angelo</span>
-                                            <small class="author-pos">CEO Company Inc</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            {% endfor %}
+
                         </div>
                     </div>
-
+                    {% endif %}
 
                 </div>
             </div>

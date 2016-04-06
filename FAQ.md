@@ -2,6 +2,19 @@
 layout: page-faq
 title: FAQ
 permalink: /FAQ/
+show-testimonials: "yes" #place "yes" or "no" here
+testimonials:
+    - link:  #Link to image or video here
+      description: "Your text here. <br>Your text here."
+      person: "Billy Bob"
+      person-photo:  #Put the image filename here
+      company: "Bob's Appliances"
+    - link: "http://player.vimeo.com/video/24837359?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff"
+      description: "Your text here. <br>Your text here."
+      person: "Jimmy John"
+      person-photo:  "photo.jpg" #Put the image filename here
+      company: "Jimmy John's"
+
 #To add a new question just continue the number patter at the bottom
 questions:
     - question: "Do you do small jobs?"
