@@ -46,7 +46,7 @@ layout: default
 {% include services-segment.html %}
 
 <!-- if a quote is added to _config.yml, a quote will appear on the home page in a banner with paralak scroll image -->
-{% if site.quote %}
+{% if page.quote %}
   {% include quote-banner.html %}
 {% endif %}
 
@@ -54,7 +54,7 @@ layout: default
 {% include portfolio-banner.html %}
 
 <!-- _config.yml has counts for customers and projects, these will show on the home page in a banner if numbers are added -->
-{% if site.total_clients %}
+{% if page.total_clients %}
   {% include customerCount.html %}
 {% endif %}
 
