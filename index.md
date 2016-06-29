@@ -9,9 +9,9 @@ company-module:
 
 ## Services component values
 text:
-  commercial: "We do commercial!"
-  residential: "We do residential!"
-  excavation: "We do excavation!"
+  commercial: ""
+  residential: ""
+  excavation: ""
 
 ## Counter component values
 ##This will add a counter component to the index page if filled in
