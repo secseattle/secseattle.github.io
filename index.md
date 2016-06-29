@@ -19,7 +19,7 @@ total_clients:
 total_projects:
 
 ##This is the quote on the index page
-quote: "This is an inspirational quote"
+quote: "It is not the beauty of a building you should look at; it's the construction of the foundation that will stand the test of time. -David Allan Coe"
 
 ##The following are the text values for the main image slider on the index page
 #### AVAILABLE COLORS: c-base, c-alt, c-light, c-dark, c-white, c-gray, c-black, c-red
