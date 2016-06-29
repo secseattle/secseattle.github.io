@@ -1,5 +1,5 @@
 ---
-title: Sterling Commercial
+title: Sterling Commercial / Industrial
 layout: page-service
 permalink: /services/commercial/
 image: "secCommercial.jpg"
