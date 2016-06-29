@@ -32,9 +32,9 @@ slider:
   ### Slide 2
   - image: "wires.jpg"
     text1: "Sterling is equipped to take your job from <strong>start</strong> to <strong>finish</strong>. "
-    text2: "from utilities to the punch list."
+    text2: "FROM UTILITIES TO THE PUNCH LIST."
 ### Slide 3
   - image: "lightbulb.jpg"
     text1: "<strong>Have an idea?</strong>"
-    text2: "Sterling can assist in design build projects."
+    text2: "STERLING CAN ASSIST IN DESIGN BUILD PROJECTS."
 ---
