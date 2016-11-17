@@ -5,4 +5,4 @@ permalink: /services/residential-contractors/
 image: "secResContract.jpg"
 ---
 
-Description needed
+Sterling Electrical Contractors services include mixed use, single family housing developments and remodels.
