@@ -7,4 +7,4 @@ category:
 file-name: charming-charlie.html
 ---
 
-
+Design assist for a custom restaurant at South Center Mall.
