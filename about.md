@@ -24,4 +24,4 @@ Expect the best from our experienced team:
 Each project is as unique as our customers and their homes and offices.
 We have options to meet your specific needs, wants and budget, just ask!
 Call now for a free estimate 425-774-1903 or email at Estimates@secseattle.com.
-Let us give you peace of mind, the best bang for your buck, at Sterling electrical service.
+Let us give you peace of mind, the best bang for your buck, at Sterling Electrical Contractors.
