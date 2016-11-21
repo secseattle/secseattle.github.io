@@ -7,4 +7,4 @@ category:
 file-name: charming-charlie.html
 ---
 
-Located at Lynnwood Crossroads, Great Clips is a 1,200 sqft hair salon franchise.
+1,200 sqft hair salon located in Lynnwood and Issaquah. 
