@@ -7,4 +7,4 @@ category:
 file-name: charming-charlie.html
 ---
 
-
+1,200 sqft hair salon located in Lynnwood and Issaquah. 

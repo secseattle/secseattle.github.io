@@ -7,4 +7,4 @@ category:
 file-name: charming-charlie.html
 ---
 
-
+Multiple 1,500 sqft building locations throughout western WA.
