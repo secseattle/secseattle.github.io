@@ -2,7 +2,7 @@
 layout: page-faq
 title: FAQ
 permalink: /FAQ/
-show-testimonials: "yes" #place "yes" or "no" here
+show-testimonials: "no" #place "yes" or "no" here
 testimonials:
     - link:  #Link to image or video here
       description: "Your text here. <br>Your text here."

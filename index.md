@@ -12,6 +12,9 @@ text:
   commercial: ""
   residential: ""
   excavation: ""
+  service: ""
+  rescontract: ""
+  design: ""
 
 ## Counter component values
 ##This will add a counter component to the index page if filled in
@@ -19,7 +22,7 @@ total_clients:
 total_projects:
 
 ##This is the quote on the index page
-quote: "It is not the beauty of a building you should look at; it's the construction of the foundation that will stand the test of time. <br>-David Allan Coe"
+quote: "<br><br>It is not the beauty of a building you should look at;<br>it's the construction of the foundation that will stand the test of time. <br>-David Allan Coe"
 
 ##The following are the text values for the main image slider on the index page
 #### AVAILABLE COLORS: c-base, c-alt, c-light, c-dark, c-white, c-gray, c-black, c-red
