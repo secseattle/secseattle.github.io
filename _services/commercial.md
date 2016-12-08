@@ -5,14 +5,15 @@ permalink: /services/commercial/
 image: "secCommercial.jpg"
 ---
 
-Tenant Improvements
+Tenant Improvements:
 
 - Office
 - Restaurants
 - Medical/Dental
 - Etc
 
-New Construction
+
+New Construction:
 
 - Site Development
 - Retail 
@@ -21,7 +22,7 @@ New Construction
 - Medical/Dental
 - Etc
 
-Service (visit our "Service and Maintenance)
+Service: (visit our "Service and Maintenance)
 
 - Corporate customers using Service Channel (or similar)
 - All business: Retail, office, medical/dental, etc.
