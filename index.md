@@ -31,7 +31,7 @@ slider:
   ### Slide 1
   - image: "skyscrapers_night_seattle.jpg"
     text1: "Sterling Electrical Contractors"
-    text2: "Honesty. Value. Integrity"
+    text2: "Honesty. Value. Integrity."
   ### Slide 2
   - image: "wires.jpg"
     text1: "Sterling is equipped to take your job from <strong>start</strong> to <strong>finish</strong>. "
