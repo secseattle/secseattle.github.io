@@ -12,7 +12,7 @@ Tenant Improvements:
 - Medical/Dental
 - Etc
 
-
+- 
 New Construction:
 
 - Site Development
@@ -22,6 +22,7 @@ New Construction:
 - Medical/Dental
 - Etc
 
+- 
 Service: (visit our "Service and Maintenance)
 
 - Corporate customers using Service Channel (or similar)
