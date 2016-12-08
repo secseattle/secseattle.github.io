@@ -6,21 +6,23 @@ image: "secCommercial.jpg"
 ---
 
 Tenant Improvements
--Retail
--Office
--Restaurants
--Medical/Dental
--Etc
+
+- Office
+- Restaurants
+- Medical/Dental
+- Etc
 
 New Construction
--Site Development
--Retail 
--Office
--Restaurants
--Medical/Dental
--Etc
+
+- Site Development
+- Retail 
+- Office
+- Restaurants
+- Medical/Dental
+- Etc
 
 Service (visit our "Service and Maintenance)
--Corporate customers using Service Channel (or similar)
--All business: Retail, office, medical/dental, etc.
+
+- Corporate customers using Service Channel (or similar)
+- All business: Retail, office, medical/dental, etc.
 
