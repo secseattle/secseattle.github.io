@@ -8,12 +8,13 @@
             <div class="row">
                 <div class="col-sm-12">
                     <span class="aux-text ">
-                        {{ site.company }} - {{ site.email }} - {{ site.phone_number }}
+                      {{ site.company }} - <a href="mailto:{{ site.email }}" title="Email Us">{{ site.email }}</a> - <a href="tel:+{{ site.phone_inter }}">{{ site.phone_number }}</a>
                     </span>
                     <nav class="top-header-menu ">
                         <ul class="top-menu">
-                            <li>
-                              License: {{ site.license }}
+                            <li> <span class="aux-text ">
+                              License: <a href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=603513444&LIC=STERLEC859MS&SAW=">{{ site.license }}</a>
+                            </span>
                             </li>
                         </ul>
                     </nav>

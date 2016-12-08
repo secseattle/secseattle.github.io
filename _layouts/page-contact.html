@@ -5,7 +5,9 @@ layout: subpage
 <section class="slice bg-white">
     <div class="wp-section">
         <div class="container">
+          <div itemscope itemtype="http://schema.org/LocalBusiness">
             <div class="row">
+
                 <div class="col-md-7">
                     <div class="section-title-wr">
                         <h3 class="section-title left"><span>Send us a message</span></h3>
@@ -96,9 +98,11 @@ layout: subpage
 
 
 
-
+                  <span itemscope itemprop="hasMap" itemtype="http://schema.org/Map">
+                    <link itemprop="mapType" href="http://schema.org/VenueMap" />
                     <div id="mapCanvas" class="map-canvas no-margin"></div>
-
+                    <a itemprop="url" href="https://www.google.com/maps/dir//6925+216th+St+SW,+Lynnwood,+WA+98036/@47.8039977,-122.3272297,19z/data=!4m16!1m7!3m6!1s0x54901aba9a0f1fa1:0x351d76ce7ab56b4e!2s6925+216th+St+SW,+Lynnwood,+WA+98036!3b1!8m2!3d47.8040204!4d-122.3269436!4m7!1m0!1m5!1m1!1s0x54901aba9a0f1fa1:0x351d76ce7ab56b4e!2m2!1d-122.3269436!2d47.8040204">Directions</a>
+                  </span>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="subsection">
@@ -107,13 +111,18 @@ layout: subpage
                                 </div>
                                 <div class="contact-info">
                                     <h5><i class="fa fa-map-marker"></i> Address</h5>
-                                    <p>{{ site.address }}</p>
+                                    <p>
+                                      <span itemprop="streetAddress">{{ site.address }}, {{ site.address2 }},</span>
+                                      <span itemprop="addressLocality">{{ site.city }}</span>,
+                                      <span itemprop="addressRegion">{{ site.state }}</span>
+                                      <span itemprop="postalCode">{{ site.zip }}</span>
+                                    </p>
 
                                     <h5><i class="fa fa-envelope"></i> Email</h5>
-                                    <p>{{ site.email }}</p>
+                                    <p><span itemprop="email"><a href="mailto:{{ site.email }}" title="Email Us">{{ site.email }}</a></span></p>
 
                                     <h5><i class="fa fa-phone"></i> Phone</h5>
-                                    <p>{{ site.phone_number }}</p>
+                                    <p><span itemprop="telephone"><a href="tel:+{{ site.phone_inter }}">{{ site.phone_number }}</a></span></p>
                                 </div>
                             </div>
                         </div>
@@ -123,8 +132,10 @@ layout: subpage
                                     <h3 class="section-title left"><span>Hours</span></h3>
                                 </div>
                                 <div class="contact-info">
+                                  <span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 08:00-16:00">
                                     <h5><i class="fa fa-check"></i> Monday - Friday</h5>
                                     <p>{{ site.hours }}</p>
+                                  </span>
                                     <p>Emergency Service 24 hours/day</p>
 
                                     <h5><i class="fa fa-times"></i> Saturday</h5>
@@ -137,10 +148,14 @@ layout: subpage
                         </div>
                     </div>
                 </div>
+
+              </div>
+
             </div>
         </div>
     </div>
 </section>
 <!-- Sripts for individual pages, depending on what plug-ins are used -->
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLNrZPGiqQZleBS6idNPU1bvWPtCd_g2c&v=3.exp&amp;sensor=false"></script>
     <script src="{{ site.path.js | prepend: site.baseurl }}/gmaps/google-maps-default.js"></script>

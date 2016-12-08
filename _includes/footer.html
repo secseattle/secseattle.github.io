@@ -4,12 +4,20 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="col">
+                  <div itemscope itemtype="http://schema.org/LocalBusiness">
                    <h4><u>Contact us</u></h4>
                    <ul>
-                        <li>{{ site.address }}</li>
-                        <li>Phone: {{ site.phone_number }}</li>
-                        <li>Email: <a href="mailto:{{ site.email }}" title="Email Us">{{ site.email }}</a></li>
+                        <li><span itemprop="name">Sterling Electrical Contractors</span></li>
+                        <li>
+                          <span itemprop="streetAddress">{{ site.address }}, {{ site.address2 }},</span>
+                          <span itemprop="addressLocality">{{ site.city }}</span>,
+                          <span itemprop="addressRegion">{{ site.state }}</span>
+                          <span itemprop="postalCode">{{ site.zip }}</span>
+                        </li>
+                        <li>Phone: <span itemprop="telephone"><a href="tel:+{{ site.phone_inter }}">{{ site.phone_number }}</a></span></li>
+                        <li>Email: <span itemprop="email"><a href="mailto:{{ site.email }}" title="Email Us">{{ site.email }}</a></span></li>
                     </ul>
+                  </div>
                  </div>
             </div>
             <div class="col-md-4">

@@ -6,8 +6,12 @@ company: Sterling Electrical Contractors
 license: STERLEC859MS
 email: info@secseattle.com
 phone_number: (425) 774-1903
-address: 5907 196th St SW Suite 101 Lynnwood, WA 98036
-city: Lynnwood, WA
+phone_inter: 14257741903
+address: 6925 216th St Sw
+address2: Suite K
+city: Lynnwood
+state: WA
+zip: 98036
 hours: "8am - 4pm"
 
 #Social network usernames
