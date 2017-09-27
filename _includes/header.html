@@ -29,17 +29,17 @@
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                       <i class="fa fa-bars icon-custom"></i>
                   </button>
-                  <a class="navbar-brand" href="{{ site.baseurl }}" title="{{ site.title }}">
-                      <img src="{{ site.path.images | prepend: site.baseurl }}/sec-logo-white.png" alt="{{ site.title }}">
+                  <a class="navbar-brand" href="/" title="{{ site.title }}">
+                      <img src="/{{ site.path.images  }}/sec-logo-white.png" alt="{{ site.title }}">
                   </a>
               </div>
               <div class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
                       <li>
-                          <a href="{{ site.baseurl }}">Home</a>
+                          <a href="/">Home</a>
                       </li>
                       <li>
-                          <a href="{{ site.baseurl }}about">About</a>
+                          <a href="/about">About</a>
                       </li>
                       <li class="dropdown dropdown-meganav mega-dropdown-fluid">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
@@ -48,7 +48,7 @@
                                 <div class="row">
                                   <div class="col-md-3 mega-nav-section-wr">
                                       <div class="mega-nav-section">
-                                        <a href="{{ site.baseurl }}services">
+                                        <a href="/services">
                                           <div class="container" style="height: 100%; width: 100%;">
                                             <i class="fa fa-cogs fa-5x hidden-xs" style="font-size: 210px;"></i>
                                           </div>
@@ -59,8 +59,8 @@
                                   {% for service in site.services %}
                                     <div class="col-md-3 mega-nav-section-wr">
                                         <div class="mega-nav-section">
-                                          <a href="{{ site.baseurl }}{{ service.url | remove_first: '/' }}">
-                                            <img src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ service.image }}" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
+                                          <a href="/{{ service.url | remove_first: '/' }}">
+                                            <img src="/{{ site.path.images  }}/resized/{{ service.image }}" class="img-responsive img-thumbnail hidden-xs hidden-sm" alt="">
                                             <h3 class="mega-nav-section-title">{{ service.title }}</h3>
                                           </a>
                                         </div>
@@ -71,16 +71,16 @@
                         </ul>
                       </li>
                       <li>
-                          <a href="{{ site.baseurl }}projects">Projects</a>
+                          <a href="/projects">Projects</a>
                       </li>
                       <li>
-                        <a href="{{ site.baseurl }}careers">Careers</a>
+                        <a href="/careers">Careers</a>
                       </li>
                       <li>
-                          <a href="{{ site.baseurl }}FAQ">FAQ</a>
+                          <a href="/FAQ">FAQ</a>
                       </li>
                       <li>
-                          <a href="{{ site.baseurl }}contact">Contact</a>
+                          <a href="/contact">Contact</a>
                       </li>
                   </ul>
               </div>

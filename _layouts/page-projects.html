@@ -30,11 +30,11 @@ layout: subpage
                       <div class="mix col-lg-4 col-md-4 col-sm-6">
                           <div class="wp-block inverse">
                               <div class="figure">
-                                  <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ project.image }}" class="img-responsive" />
+                                  <img alt="" src="/{{ site.path.images  }}/resized/{{ project.image }}" class="img-responsive" />
                                   <div class="figcaption bg-base"></div>
                                   <div class="figcaption-btn">
-                                      <a href="{{ site.path.images | prepend: site.baseurl }}/{{ project.image }}" class="btn btn-lg btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
-                                      <a href="{{ site.baseurl }}{{ project.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
+                                      <a href="/{{ site.path.images  }}/{{ project.image }}" class="btn btn-lg btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                      <a href="/{{ project.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
                                   </div>
                               </div>
                               <div class="row">

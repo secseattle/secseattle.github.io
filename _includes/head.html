@@ -7,36 +7,36 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- Essential styles -->
-    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
+    <link rel="stylesheet" href="/{{ site.path.plugins  }}/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/{{ site.path.plugins  }}/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/{{ site.path.plugins  }}/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
 
     <!-- Boomerang styles -->
-    <link id="wpStylesheet" type="text/css" href="{{ site.path.css | prepend: site.baseurl }}/global-style.css" rel="stylesheet" media="screen">
+    <link id="wpStylesheet" type="text/css" href="/{{ site.path.css  }}/global-style.css" rel="stylesheet" media="screen">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.path.images | prepend: site.baseurl }}/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.path.images | prepend: site.baseurl }}/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.path.images | prepend: site.baseurl }}/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.path.images | prepend: site.baseurl }}/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.path.images | prepend: site.baseurl }}/favicon/favicon-16x16.png">
-    <link rel="manifest" href="{{ site.path.images | prepend: site.baseurl }}/favicon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="/{{ site.path.images  }}/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/{{ site.path.images  }}/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/{{ site.path.images  }}/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/{{ site.path.images  }}/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/{{ site.path.images  }}/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/{{ site.path.images  }}/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/{{ site.path.images  }}/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/{{ site.path.images  }}/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/{{ site.path.images  }}/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/{{ site.path.images  }}/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/{{ site.path.images  }}/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/{{ site.path.images  }}/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/{{ site.path.images  }}/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/{{ site.path.images  }}/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ site.path.images | prepend: site.baseurl }}/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/{{ site.path.images  }}/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Assets -->
-    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/owl-carousel/owl.theme.css">
-    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/sky-forms/css/sky-forms.css">
+    <link rel="stylesheet" href="/{{ site.path.plugins  }}/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="/{{ site.path.plugins  }}/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="/{{ site.path.plugins  }}/sky-forms/css/sky-forms.css">
 
     <!--[if lt IE 9]>
         <link rel="stylesheet" href="assets/sky-forms/css/sky-forms-ie8.css">
@@ -44,8 +44,8 @@
 
     <!-- Required JS -->
     <script src="{{ site.url }}/{{ site.path.js }}/jquery.js"></script>
-    <script src="{{ site.path.js | prepend: site.baseurl }}/jquery-ui.min.js"></script>
+    <script src="{{ site.url }}/{{ site.path.js  }}/jquery-ui.min.js"></script>
 
     <!-- Page scripts -->
-    <link rel="stylesheet" href="{{ site.path.plugins | prepend: site.baseurl }}/layerslider/css/layerslider.css" type="text/css">
+    <link rel="stylesheet" href="/{{ site.path.plugins  }}/layerslider/css/layerslider.css" type="text/css">
 </head>

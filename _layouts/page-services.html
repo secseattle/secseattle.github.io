@@ -25,10 +25,10 @@ layout: subpage
                       <div class="mix col-lg-4 col-md-4 col-sm-6">
                           <div class="wp-block inverse">
                               <div class="figure">
-                                  <img alt="" src="{{ site.path.images | prepend: site.baseurl }}/resized/{{ service.image }}" class="img-responsive" />
+                                  <img alt="" src="/{{ site.path.images  }}/resized/{{ service.image }}" class="img-responsive" />
                                   <div class="figcaption bg-base"></div>
                                   <div class="figcaption-btn">
-                                      <a href="{{ site.baseurl }}{{ service.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
+                                      <a href="/{{ service.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
                                   </div>
                               </div>
                               <div class="row">

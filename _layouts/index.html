@@ -10,7 +10,7 @@ layout: default
       {% for slide in page.slider %}
       <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
           <!-- slide background -->
-          <img src="{{ site.path.images | prepend: site.baseurl}}/{{ slide.image }}" class="ls-bg" alt="Slide background"/>
+          <img src="/{{ site.path.images }}/{{ slide.image }}" class="ls-bg" alt="Slide background"/>
 
           <!-- Left Text -->
           {% if counter == 0 %}
@@ -23,7 +23,7 @@ layout: default
             <!-- <div style="position: relative; overflow: hidden;">
              <h3 class="ls-l title c-white text-wrapped black text-uppercase text-center strong" style="opacity: .90; padding: 100%; z-index: 2; top:70%; left:50%; " data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1000;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
               <div style="height:70%">
-                 <a href="https://www.expertise.com/wa/seattle/electricians#provider18"><img class="black"style="position: absolute; left: 5%;top: 10%;width: 90%;height: auto; background-color: #cccccc; " src="{{ site.path.images | prepend: site.baseurl}}/prv/award-inverse.png" /></a>
+                 <a href="https://www.expertise.com/wa/seattle/electricians#provider18"><img class="black"style="position: absolute; left: 5%;top: 10%;width: 90%;height: auto; background-color: #cccccc; " src="/{{ site.path.images }}/prv/award-inverse.png" /></a>
                </div>
              </h3>
            </div> -->

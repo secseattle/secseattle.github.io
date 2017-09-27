@@ -11,8 +11,8 @@ layout: subpage
                         {% for career in site.careers %}
                         <li class="">
                             <div class="listing-image">
-                                <img src="{{ site.path.images | prepend: site.baseurl }}/sec-logo-white.png" class="img-responsive" alt="">
-                                <a href="{{ site.baseurl }}{{ career.url | remove_first: '/' }}" class="btn btn-lg btn-square btn-light btn-block-bm btn-icon btn-icon-go">See more</a>
+                                <img src="/{{ site.path.images  }}/sec-logo-white.png" class="img-responsive" alt="">
+                                <a href="/{{ career.url | remove_first: '/' }}" class="btn btn-lg btn-square btn-light btn-block-bm btn-icon btn-icon-go">See more</a>
                             </div>
                             <div class="cell">
                                 <div class="listing-body clearfix">
