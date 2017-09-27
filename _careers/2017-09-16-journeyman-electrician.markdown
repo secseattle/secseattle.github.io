@@ -1,8 +1,8 @@
 ---
 layout: page-career
-title:  "01 Journeyman Electrician"
-date:   2016-12-06 16:46:47 -0800
-file-name: 1-01-journeyman-electrician.html
+title:  "Journeyman Electrician"
+date:   2017-09-16 16:46:47 -0800
+file-name: 2017-09-16-journeyman-electrician.html
 application-link: https://www.ziprecruiter.com/jobs/sterling-electrical-contractors-412e1961/journeyman-electrician-85b3467d
 ---
 ## Listing Info
