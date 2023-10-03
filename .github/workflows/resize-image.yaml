@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Explore-GitHub-Actions:
+  Resize-Images:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -17,4 +17,12 @@ jobs:
           image-folder: './assets/images/large' # This is a Required field & this folder has original images
           new-resolution: '400x300' # This is Required field
           output-folder: "./assets/images/resized" # This is Required field & this folder will be used to store resized images
-            
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Add resized images"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
