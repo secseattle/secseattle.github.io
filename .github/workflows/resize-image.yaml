@@ -10,6 +10,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Image Resizer Action
         uses: sharadcodes/img-resizer@v1.1
         with:
