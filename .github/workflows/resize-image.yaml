@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'assets/images/large'
+  workflow_dispatch:
+
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
