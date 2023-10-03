@@ -1,3 +1,17 @@
-- name: Image Resizer Action
-  uses: sharadcodes/img-resizer@v1.1
+name: GitHub Actions Image resize
+run-name: ${{ github.actor }} is resizing images
+on: 
+  push:
+    paths:
+      - 'assets/images/large'
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Image Resizer Action
+        uses: sharadcodes/img-resizer@v1.1
+        with:
+          image-folder: 'assets/images/large' # This is a Required field & this folder has original images
+          new-resolution: '400x300' # This is Required field
+          output-folder: "assets/images/resized" # This is Required field & this folder will be used to store resized images
             
