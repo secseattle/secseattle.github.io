@@ -1,0 +1,3 @@
+- name: Image Resizer Action
+  uses: sharadcodes/img-resizer@v1.1
+            
