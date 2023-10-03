@@ -2,7 +2,7 @@
 layout: page-project
 title: "Leone and Vaughn Orthodontics"
 location: "Bellevue, WA"
-image: "lvo-2.jpg"
+image: "lvo-1.jpg"
 category:
 file-name: lvo.html
 ---
