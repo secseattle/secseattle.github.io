@@ -7,4 +7,4 @@ category:
 file-name: wet-rabbit.html
 ---
 
-Multiple 1,500 sqft building locations throughout western WA.
+Car wash located in Puyallup, WA.

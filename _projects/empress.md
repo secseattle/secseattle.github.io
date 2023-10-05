@@ -7,4 +7,5 @@ category:
 file-name: empress.html
 ---
 
-Senior housing
+
+Senior housing in Seattle, WA
