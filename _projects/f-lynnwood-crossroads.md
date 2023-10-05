@@ -1,6 +1,6 @@
 ---
 layout: page-project
-title: "Lynwood Crossroads"
+title: "Lynnwood Crossroads"
 location: "Lynnwood, WA"
 image: "secLynnwoodCrossroads.jpg"
 category:
