@@ -2,7 +2,7 @@
 layout: page-project
 title: "Barnes and Noble in Bellevue"
 location: "Kirkland, WA"
-image: "barnes-and-noble-bellevue-1.jpg"
+image: "barnes-and-noble-bellevue-1.jpeg"
 category:
 file-name: barnes-and-noble-bellevue.html
 ---
