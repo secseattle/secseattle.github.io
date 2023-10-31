@@ -10,16 +10,16 @@ Established company seeking apprentice electrician. Must have own transportation
 
 ### We Offer
 
-+ Great working environment
-+ Work with top contractors
-+ Full time work
-+ 1 week paid vacation after 1 year
-+ 2 week paid vacation after 5 years
-+ 3 week paid vacation after 10 years
-+ Medical
-+ 401K
-+ Company van
-+ Opportunity for advancement
+* Great working environment
+* Work with top contractors
+* Full time work
+* 1 week paid vacation after 1 year
+* 2 week paid vacation after 5 years
+* 3 week paid vacation after 10 years
+* Medical
+* 401K
+* Company van
+** Opportunity for advancement
 
 Starting pay $10-25 DOV
 
