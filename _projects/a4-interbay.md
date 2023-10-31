@@ -2,7 +2,7 @@
 layout: page-project
 title: "Interbay Retail Development"
 location: "Seattle, WA"
-image: "interbay-retail-development-1.jpg"
+image: "interbay-retail-development-1.png"
 category:
 file-name: interbay-retail-development.html
 ---
