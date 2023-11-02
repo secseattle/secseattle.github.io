@@ -3,6 +3,7 @@ layout: page-project
 title: "Lexus of Seattle"
 location: "Lynnwood, WA"
 image: "lexus-3.jpg"
+image2: "lexus-2.jpg"
 category:
 file-name: lexus-of-seattle.html
 ---

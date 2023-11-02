@@ -3,6 +3,7 @@ layout: page-project
 title: "Total Wine"
 location: "Multiple in WA"
 image: "total-wine-1.jpg"
+image2: "total-wine-1.jpg"
 category:
 file-name: total-wine.html
 ---
