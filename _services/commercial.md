@@ -8,10 +8,10 @@ image: "secCommercial.jpg"
 Tenant Improvements:
 
 
-    * Office
-    * Restaurants
-    * Medical/Dental
-    * Etc.
+ - Office
+ - Restaurants
+ - Medical/Dental
+ - Etc.
 
 
 New Construction:
@@ -25,6 +25,6 @@ New Construction:
 
 Service: (visit our "Service and Maintenance)
 
-    - Corporate customers using Service Channel (or similar)
-    - All business: Retail, office, medical/dental, etc.
+ - Corporate customers using Service Channel (or similar)
+ - All business: Retail, office, medical/dental, etc.
 
