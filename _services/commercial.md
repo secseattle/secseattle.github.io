@@ -7,7 +7,7 @@ image: "secCommercial.jpg"
 
 Tenant Improvements:
 
-- Office
+- * Office
 - Restaurants
 - Medical/Dental
 - Etc
