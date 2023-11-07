@@ -24,7 +24,7 @@ image: "secCommercial.jpg"
 - &#8226; Etc.
 
 <br>
-<h4 style="text-transform: none;"> Service: (visit our "Service and Maintenance) </h4>
+<h4 style="text-transform: none;"> Service: (visit our "Service and Maintenanc" page") </h4>
 
 - &#8226; Corporate customers using Service Channel (or similar)
 - &#8226; All business: Retail, office, medical/dental, etc.
