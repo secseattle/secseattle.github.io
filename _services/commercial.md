@@ -5,6 +5,7 @@ permalink: /services/commercial/
 image: "secCommercial.jpg"
 ---
 
+<br>
 Tenant Improvements:
 
 - &#8226; Office
