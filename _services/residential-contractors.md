@@ -7,4 +7,4 @@ image: "secResContract.jpg"
 
 <br>
 
-Sterling Electrical Contractors services include mixed use, single family housing developments and remodels.
+Our residential contractor services at SEC include mixed use, single family housing developments and remodels.

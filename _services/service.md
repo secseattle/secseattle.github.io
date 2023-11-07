@@ -13,6 +13,7 @@ Sterling Electrical Contractors provides the service of troubleshooting as an ef
 - &#8226; Service upgrades 
 - &#8226; Preventitive maintenance
 - &#8226; Repairs
+
 <br>
 
 For our corporate users, we work with companies such as ServiceChannel to provide service work. Please inquire to get your company signed up!
