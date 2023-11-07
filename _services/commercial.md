@@ -6,7 +6,7 @@ image: "secCommercial.jpg"
 ---
 
 <br>
-<h4> Tenant Improvements: </h4>
+<h4 style="text-transform: none;"> Tenant Improvements: </h4>
 
 - &#8226; Office
 - &#8226; Restaurants
@@ -14,7 +14,7 @@ image: "secCommercial.jpg"
 - &#8226; Etc.
 
 <br>
-<h4>New Construction:</h4>
+<h4 style="text-transform: none;"> New Construction:</h4>
 
 - &#8226; Site Development
 - &#8226; Retail 
@@ -24,7 +24,7 @@ image: "secCommercial.jpg"
 - &#8226; Etc.
 
 <br>
-<h4>Service: (visit our "Service and Maintenance) </h4>
+<h4 style="text-transform: none;"> Service: (visit our "Service and Maintenance) </h4>
 
 - &#8226; Corporate customers using Service Channel (or similar)
 - &#8226; All business: Retail, office, medical/dental, etc.
