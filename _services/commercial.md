@@ -8,10 +8,12 @@ image: "secCommercial.jpg"
 Tenant Improvements:
 
 
- - Office
- - Restaurants
- - Medical/Dental
- - Etc.
+ &#8226; Office
+
+ &#8226; Restaurants
+ 
+ &#8226; Medical/Dental
+ &#8226; Etc.
 
 
 New Construction:
