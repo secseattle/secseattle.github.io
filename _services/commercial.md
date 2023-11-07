@@ -12,7 +12,7 @@ Tenant Improvements:
 - &#8226; Medical/Dental
 - &#8226; Etc.
 
-<br><
+<br>
 New Construction:
 
 - &#8226; Site Development
