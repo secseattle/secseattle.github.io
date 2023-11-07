@@ -6,6 +6,8 @@ image: "secResidential.jpg"
 ---
 
 <br>
+Our residential services include:
+<br>
 
 - &#8226; Custom Remodel Wiring
 - &#8226; New Construction Wiring
