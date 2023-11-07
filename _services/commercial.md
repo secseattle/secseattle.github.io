@@ -24,7 +24,7 @@ image: "secCommercial.jpg"
 - &#8226; Etc.
 
 <br>
-<p style="color: #fff; text-transform: none;"> Service: (visit our "Service and Maintenance" page") </p>
+<p style="color: #fff; text-transform: none;"> Service: (visit our "<a href="http://secseattle.com/services/service-maintenance)"> Service and Maintenance </a>" page") </p>
 
 - &#8226; Corporate customers using ServiceChannel (or similar)
 - &#8226; All businesses: Retail, office, medical/dental, etc.
