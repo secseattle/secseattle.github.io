@@ -5,28 +5,30 @@ permalink: /services/residential/
 image: "secResidential.jpg"
 ---
 
-- Custom Remodel Wiring
-- New Construction Wiring
-- Zonal Electrical Heating (Wall Mount Type Heaters)
-- Installation and Wiring of Generators
-- Installation and Upgrading of Electrical Services
-- Interior Lighting
-- Low Voltage/Intelligent Lighting Systems
-- Landscape Lighting
-- Security Lighting
-- Multimedia Cabling (Audio, Video, Data)
-- Computer Cabeling/Networking
-- Fiber Optics
-- Phone Systems
-- Home Automation (Lutron, Vantage, Litetouch)
-- Surge Suppression
-- Swimming Pool and Hot Tub Wiring
-- Multiroom Audio and Video
-- Custom HD Home Theaters
-- Multimedia Entertainment Systems
-- Lighting Control Systems
-- Surveillance Cameras and Recorders
-- Gate and Access Controls
-- Service Calls
-- Generator Installation and Hookup
+<br>
+
+- &#8226; Custom Remodel Wiring
+- &#8226; New Construction Wiring
+- &#8226; Zonal Electrical Heating (Wall Mount Type Heaters)
+- &#8226; Installation and Wiring of Generators
+- &#8226; Installation and Upgrading of Electrical Services
+- &#8226; Interior Lighting
+- &#8226; Low Voltage/Intelligent Lighting Systems
+- &#8226; Landscape Lighting
+- &#8226; Security Lighting
+- &#8226; Multimedia Cabling (Audio, Video, Data)
+- &#8226; Computer Cabeling/Networking
+- &#8226; Fiber Optics
+- &#8226; Phone Systems
+- &#8226; Home Automation (Lutron, Vantage, Litetouch)
+- &#8226; Surge Suppression
+- &#8226; Swimming Pool and Hot Tub Wiring
+- &#8226; Multiroom Audio and Video
+- &#8226; Custom HD Home Theaters
+- &#8226; Multimedia Entertainment Systems
+- &#8226; Lighting Control Systems
+- &#8226; Surveillance Cameras and Recorders
+- &#8226; Gate and Access Controls
+- &#8226; Service Calls
+- &#8226; Generator Installation and Hookup
 
