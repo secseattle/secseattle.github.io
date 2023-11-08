@@ -6,7 +6,7 @@ image: "anker-1.jpg"
 image: "anker-2.jpg"
 category:
 file-name: anker.html
-number: 2
+count: 2
 ---
 
 

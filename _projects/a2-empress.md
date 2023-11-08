@@ -6,7 +6,7 @@ image: "empress-3.jpg"
 image2: "empress-2.jpg"
 category:
 file-name: empress.html
-number: 1
+count: 1
 ---
 
 
