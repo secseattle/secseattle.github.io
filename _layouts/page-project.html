@@ -12,7 +12,9 @@ layout: subpage
                           <ol class="carousel-indicators hide">
                               <li data-target="#homepageCarousel" data-slide-to="0" class="active"></li>
                           </ol>
-
+                          {{% if image in page.image < 2 %}}
+                          <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
+                          {{% else %}}
                           <div class="carousel-inner">
                               <div class="item item-dark active">
                                     {{% assign counter = 0 %}}
@@ -21,6 +23,7 @@ layout: subpage
                                         {{% endfor %}}
                               </div>
                           </div>
+                          {{% endif %}}
 
                           <!-- Controls -->
                         <a class="left carousel-control" href="#workCarousel" data-slide="prev">
