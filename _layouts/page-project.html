@@ -1,6 +1,9 @@
 ---
 layout: subpage
 ---
+<script>
+    var count = page.count;
+</script>
 
 <section class="slice bg-white bb">
       <div class="wp-section">
@@ -12,8 +15,7 @@ layout: subpage
                           <ol class="carousel-indicators hide">
                               <li data-target="#homepageCarousel" data-slide-to="0" class="active"></li>
                           </ol>
-                                {{% assign count = 0 %}}
-                                {{% if {{page.count}} = 1 %}}
+                                {{% if count = 1 %}}
                                     <div class="carousel-inner hide">
                                         <div class="item item-dark active hide">
                                             <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
@@ -22,7 +24,7 @@ layout: subpage
                                 {{% else %}}
                                     <div class="carousel-inner">
                                         <div class="item item-dark active">
-                                                {{% assign count = 0 %}}
+                                                {{% assign counter = 0 %}}
                                                     {{% for image in page.image %}}
                                                         <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
                                                     {{% endfor %}}
