@@ -15,7 +15,10 @@ layout: subpage
 
                           <div class="carousel-inner">
                               <div class="item item-dark active">
-                                  <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
+                                    {{% assign counter = 0 %}}
+                                        {{% for image in page.image %}}
+                                            <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
+                                        {{% endfor %}}
                               </div>
                               <div class="item item-dark">
                                 <img src="/{{ site.path.images  }}/large/{{ page.image2 }}" alt="" class="img-responsive">
@@ -51,15 +54,15 @@ layout: subpage
                       <div class="section-title-wr mt-40">
                           <h3 class="section-title left">
                               <span class="text-standard">Project description</span>
-                          </h3?
+                          </h3>
+                      </div>
                       <div>
-                      <div>
-                        <p>
+                            <p>
                             <span style="font-size: large;">{{content}}</span>
-                        </p>
+                            </p>
+                        </div>
                     </div>
                    
-                  </div>
               </div>
           </div>
       </div>
