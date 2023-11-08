@@ -1,7 +1,3 @@
-<script>
-    var imageCount = {{ imageCount }};
-    console.log('Number of images on the page: ' + imageCount);
-  </script> 
 ---
 layout: page-project
 title: "Anker Ballard Flats"
