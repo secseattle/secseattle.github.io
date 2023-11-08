@@ -12,12 +12,13 @@ layout: subpage
                           <ol class="carousel-indicators hide">
                               <li data-target="#homepageCarousel" data-slide-to="0" class="active"></li>
                           </ol>
-                          {{% if image in page.image < 2 %}}
+                          {{% assign counter = 0 %}}
+                          {{% if image in page.image = 1 %}}
                           <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
                           {{% else %}}
                           <div class="carousel-inner">
                               <div class="item item-dark active">
-                                    {{% assign counter = 0 %}}
+                                    {{% assign count = 0 %}}
                                         {{% for image in page.image %}}
                                             <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
                                         {{% endfor %}}
