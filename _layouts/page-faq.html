@@ -29,7 +29,7 @@ layout: subpage
                       {% for num in page.questions %}
                         {% assign counter = counter | plus: 1 %}
                         <div class="panel panel-default">
-                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordionThree" href="#collapse{{ counter }}">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordionThree" href="#collapse{{ counter }}" style="cursor: pointer;">
                                 <h4 class="panel-title">
                                     <a>
                                     {{ num.question }}
