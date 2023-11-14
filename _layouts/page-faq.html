@@ -29,9 +29,9 @@ layout: subpage
                       {% for num in page.questions %}
                         {% assign counter = counter | plus: 1 %}
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordionThree" href="#collapse{{ counter }}">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionThree" href="#collapse{{ counter }}">
+                                    <a>
                                     {{ num.question }}
                                     </a>
                                 </h4>
