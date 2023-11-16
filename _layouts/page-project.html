@@ -20,11 +20,17 @@ layout: subpage
                                         <div class="item item-dark active hide">
                                             <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
                                         </div>
-                                    </div>-->
-                                <!--{{% else %}}-->
+                                    </div>
+                                {{% else %}} -->
                                     <div class="carousel-inner">
                                         <div class="item item-dark active">
-                                            <img src="/{{ site.path.images  }}/resized/{{ page.image }}" alt="" class="img-responsive">
+                                            <div>
+                                                <!-- {% assign counter = 0 %}
+                                                {% for num in page.images %}
+                                                    {% assign counter = counter | plus: 1 %} -->
+                                                            <img src="/{{ site.path.images  }}/resized/{{ page.image }}" alt="" class="img-responsive">
+                                                <!-- {% endfor %} -->
+                                            </div>
                                         </div>
                                     </div>
                                 <!--{{% endif %}} -->
