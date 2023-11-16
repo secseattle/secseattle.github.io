@@ -24,7 +24,11 @@ layout: subpage
                                 {{% else %}}-->
                                     <div class="carousel-inner">
                                         <div class="item item-dark active">
+                                            {% assign counter = 0 %}
+                                                {% for num in page.images %}
+                                                    {% assign counter = counter | plus: 1 %}
                                             <img src="/{{ site.path.images  }}/resized/{{ page.image }}" alt="" class="img-responsive" style="width: 555px;">
+                                            {% endfor %}
                                         </div>
                                     </div>
                                 <!--{{% endif %}} -->
