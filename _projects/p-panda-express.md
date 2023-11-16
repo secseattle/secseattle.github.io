@@ -3,8 +3,8 @@ layout: page-project
 title: "Panda Express"
 location: "Multiple in WA"
 images: 
-    image: "secPandaExpress.jpg " 
-    image: "secPandaExpress.jpg " 
+    image: "secPandaExpress.jpg" 
+    image: "secPandaExpress.jpg" 
 category:
 file-name: panda-express.html
 ---
