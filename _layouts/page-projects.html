@@ -33,13 +33,14 @@ layout: subpage
                               <div class="figure">
                                 {% assign counter = 0 %}
                                     {% for image in page.images %}
-                                    <img alt="" src="/{{ site.path.images  }}/resized/{{ project.images }}" class="img-responsive" />
+                                     {% assign counter = counter %}
+                                        <img alt="" src="/{{ site.path.images  }}/resized/{{ project.images }}" class="img-responsive" />
+                                    {% endfor %}
                                     <div class="figcaption bg-base"></div>
                                     <div class="figcaption-btn">
                                         <a href="/{{ site.path.images  }}/resized/{{ project.image }}" class="btn btn-lg btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
                                         <a href="/{{ project.url | remove_first: '/' }}" class="btn btn-lg btn-b-white"><i class="fa fa-link"></i> View</a>
                                     </div>
-                                    {% endfor %}
                               </div>
 
                               <div class="row">
