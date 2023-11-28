@@ -22,15 +22,15 @@ layout: subpage
                                         </div>
                                     </div>
                                 {{% else %}}-->
-                                    <div class="carousel-inner">
-                                        <div class="item item-dark active">
-                                            {% assign counter = 0 %}
-                                                {% for image in page.images %}
-                                                    {% assign counter = counter | plus: 1 %}
-                                            <img src="/{{ site.path.images  }}/large/{{ image }}" alt="" class="img-responsive" style="width: 555px;">
-                                            {% endfor %}
+                                <div class="carousel-inner">
+                                    {% assign counter = 0 %}
+                                    {% for image in page.images %}
+                                        {% assign counter = counter | plus: 1 %}
+                                        <div class="item {% if counter == 1 %}active{% endif %}">
+                                            <img src="/{{ site.path.images }}/large/{{ image }}" alt="" class="img-responsive" style="width: 555px;">
                                         </div>
-                                    </div>
+                                    {% endfor %}
+                                </div>
                                 <!--{{% endif %}} -->
 
                           <!-- Controls -->
