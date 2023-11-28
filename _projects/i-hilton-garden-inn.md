@@ -5,7 +5,7 @@ location: "Redmond, WA"
 images: 
     - "hilton-garden-inn-redmond.jpg "
     - "anderson-park-photo-2.jpg "
-    - "anderson-park-photo-3.jpg "
+    - "anderson-park-photo-3.jpeg "
 category:
 file-name: hilton-garden-inn.html
 ---
