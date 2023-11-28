@@ -31,12 +31,7 @@ layout: subpage
                       <div class="mix col-lg-4 col-md-4 col-sm-6">
                           <div class="wp-block inverse">
                               <div class="figure">
-                                {% if page.images.size > 0 %}
-                                    <!-- Change the index (e.g., [0], [1], etc.) to reference a specific image from the list -->
-                                    <img alt="" src="/{{ site.path.images  }}/resized/{{ project.image[0] }}" class="img-responsive" />
-                                    {% else %}
-                                        <p>No images available</p>
-                                    {% endif %}
+                                    <img alt="" src="/{{ site.path.images  }}/resized/{{ project.image }}" class="img-responsive" />
                                     <div class="figcaption bg-base"></div>
                                     <div class="figcaption-btn">
                                         <a href="/{{ site.path.images  }}/resized/{{ project.image }}" class="btn btn-lg btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
