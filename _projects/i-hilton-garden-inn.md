@@ -2,7 +2,7 @@
 layout: page-project
 title: "Hilton Garden Inn"
 location: "Redmond, WA"
-images: 
+image: 
     - "hilton-garden-inn-redmond.jpg "
     - "anderson-park-hotel-photo-2.jpg "
 category:
