@@ -4,7 +4,8 @@ title: "Hilton Garden Inn"
 location: "Redmond, WA"
 images: 
     - "hilton-garden-inn-redmond.jpg "
-    - "anderson-park-hotel-photo-2.jpg "
+    - "anderson-park-photo-2.jpg "
+    - "anderson-park-photo-3.jpg "
 category:
 file-name: hilton-garden-inn.html
 ---
