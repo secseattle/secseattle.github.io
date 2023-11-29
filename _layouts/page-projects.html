@@ -25,10 +25,10 @@ layout: subpage
 
 
               <div class="row">
-                  <div id="ulSorList">
+                <div id="ulSorList" style="text-align: left;"> <!-- Set text-align to left -->
 
-                      {% for project in site.projects %}
-                      <div class="mix col-lg-4 col-md-4 col-sm-6" style="text-align: left;">
+                    {% for project in site.projects %}
+                    <div class="mix col-lg-4 col-md-4 col-sm-6 {% if forloop.last %}inline-block{% endif %}" style="display: inline-block;">
                           <div class="wp-block inverse">
                               <div class="figure">
                                     <img alt="" src="/{{ site.path.images  }}/resized/{{ project.images[0] }}" class="img-responsive" />
