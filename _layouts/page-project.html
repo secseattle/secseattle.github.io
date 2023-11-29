@@ -15,27 +15,23 @@ layout: subpage
                           <ol class="carousel-indicators hide">
                               <li data-target="#homepageCarousel" data-slide-to="0" class="active"></li>
                           </ol>
-                                {{% if page.images.size = 1 %}}
+                                <!--{{% if count = 1 %}}
                                     <div class="carousel-inner hide">
-                                        {% assign counter = 0 %}
-                                        {% for image in page.images %}
-                                            {% assign counter = counter | plus: 1 %}
-                                            <div class="item {% if counter == 1 %}active{% endif %}">
-                                                <img src="/{{ site.path.images }}/large/{{ image }}" alt="" class="img-responsive" style="width: 555px;">
-                                            </div>
-                                        {% endfor %}
+                                        <div class="item item-dark active hide">
+                                            <img src="/{{ site.path.images  }}/large/{{ page.image }}" alt="" class="img-responsive">
+                                        </div>
                                     </div>
-                                {{% else %}}
-                                    <div class="carousel-inner">
-                                        {% assign counter = 0 %}
-                                        {% for image in page.images %}
-                                            {% assign counter = counter | plus: 1 %}
-                                            <div class="item {% if counter == 1 %}active{% endif %}">
-                                                <img src="/{{ site.path.images }}/large/{{ image }}" alt="" class="img-responsive" style="width: 555px;">
-                                            </div>
-                                        {% endfor %}
-                                    </div>
-                                {{% endif %}}
+                                {{% else %}}-->
+                                <div class="carousel-inner">
+                                    {% assign counter = 0 %}
+                                    {% for image in page.images %}
+                                        {% assign counter = counter | plus: 1 %}
+                                        <div class="item {% if counter == 1 %}active{% endif %}">
+                                            <img src="/{{ site.path.images }}/large/{{ image }}" alt="" class="img-responsive" style="width: 555px;">
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                                <!--{{% endif %}} -->
 
                           <!-- Controls -->
                         <a class="left carousel-control" href="#workCarousel" data-slide="prev">
