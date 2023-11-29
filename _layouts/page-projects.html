@@ -28,7 +28,7 @@ layout: subpage
                   <div id="ulSorList">
 
                       {% for project in site.projects %}
-                      <div class="mix col-lg-4 col-md-4 col-sm-6 {% if forloop.last %}float-left{% endif %}">
+                      <div class="mix col-lg-4 col-md-4 col-sm-6" style="float: left !important;">
                           <div class="wp-block inverse">
                               <div class="figure">
                                     <img alt="" src="/{{ site.path.images  }}/resized/{{ project.images[0] }}" class="img-responsive" />
