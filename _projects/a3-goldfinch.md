@@ -2,8 +2,9 @@
 layout: page-project
 title: "Goldfinch Apartments"
 location: "Seattle, WA"
-image: "goldfinch-1.jpeg"
-image2: "goldfinch-2.jpg"
+images: 
+    - "goldfinch-1.jpeg"
+    - "goldfinch-2.jpg"
 category:
 file-name: goldfinch.html
 ---

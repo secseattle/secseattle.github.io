@@ -2,8 +2,8 @@
 layout: page-project
 title: "Five Guys"
 location: "Lynnwood, WA"
-image: "secFiveGuys.jpg"
-image2: "secFiveGuys.jpg"
+images: 
+    - "secFiveGuys.jpg"
 category:
 file-name: five-guys.html
 ---

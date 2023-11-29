@@ -2,8 +2,10 @@
 layout: page-project
 title: "Mio Apartments"
 location: "Seattle, WA"
-image: "ecoluxe-1.jpg"
-image2: "ecoluxe-3.jpg"
+images: 
+    - "ecoluxe-1.jpg"
+    - "ecoluxe-2.jpg"
+    - "ecoluxe-3.jpg"
 category:
 file-name: mio.html
 ---

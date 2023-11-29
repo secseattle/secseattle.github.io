@@ -2,8 +2,10 @@
 layout: page-project
 title: "Empress Senior Living"
 location: "Seattle, WA"
-image: "empress-3.jpg"
-image: "empress-2.jpg"
+images: 
+    - "empress-3.jpg"
+    - "empress-2.jpg"
+    - "empress-1.jpg"
 category:
 file-name: empress.html
 count: 1

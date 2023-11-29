@@ -2,8 +2,8 @@
 layout: page-project
 title: "Charming Charlie"
 location: "Redmond, WA"
-image: "secCharmingCharlie.jpg"
-image2: "secCharmingCharlie.jpg"
+images: 
+    - "secCharmingCharlie.jpg"
 category:
 file-name: charming-charlie.html
 ---

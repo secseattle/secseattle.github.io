@@ -2,8 +2,8 @@
 layout: page-project
 title: "Smokey Point Town Center"
 location: "Marysville, WA"
-image: "secSmokeyPoint.jpg"
-image2: "secSmokeyPoint.jpg"
+images: 
+    - "secSmokeyPoint.jpg"
 category:
 file-name: smokey-point.html
 ---

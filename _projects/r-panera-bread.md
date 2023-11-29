@@ -2,8 +2,8 @@
 layout: page-project
 title: "Panera Bread"
 location: "Multiple in WA"
-image: "secPaneraBread.jpg"
-image: "secPaneraBread.jpg"
+images: 
+    - "secPaneraBread.jpg"
 category:
 file-name: panera-bread.html
 ---

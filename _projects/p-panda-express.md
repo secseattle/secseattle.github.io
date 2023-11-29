@@ -4,7 +4,6 @@ title: "Panda Express"
 location: "Multiple in WA"
 images: 
     - "secPandaExpress.jpg" 
-    - "secPandaExpress.jpg" 
 category:
 file-name: panda-express.html
 ---

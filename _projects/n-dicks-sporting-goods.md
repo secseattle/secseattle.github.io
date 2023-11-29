@@ -2,8 +2,8 @@
 layout: page-project
 title: "Dick's Sporting Goods"
 location: "Multiple in WA"
-image: "secDicksSporting.jpg"
-image2: "secDicksSporting.jpg"
+images: 
+    - "secDicksSporting.jpg"
 category:
 file-name: dicks-sporting-goods.html
 ---

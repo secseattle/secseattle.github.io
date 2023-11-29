@@ -2,8 +2,8 @@
 layout: page-project
 title: "Moctezumas"
 location: "Tukwila, WA"
-image: "secMoctezumas.jpg"
-image2: "secMoctezumas.jpg"
+images: 
+    - "secMoctezumas.jpg"
 category:
 file-name: moctezumas.html
 ---
