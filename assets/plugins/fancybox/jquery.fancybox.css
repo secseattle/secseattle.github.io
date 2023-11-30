@@ -71,8 +71,8 @@
 }
 
 .fancybox-image {
-	max-width: 200%;
-	max-height: 200%;
+	max-width: 400%;
+	max-height: 400%;
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
