@@ -76,8 +76,10 @@
                                   </div>
                                   <div class="row">
                                       <div class="col-xs-9">
-                                          <h2 class="text-left">{{ project.title }}</h2>
-                                          <small style="color: rgb(102, 102, 102) 248, 255, 0.703)">{{ project.location }}</small>
+                                        <a href="/{{ project.url | remove_first: '/' }}">
+                                          <h2 class="text-left" style="cursor: pointer;">{{ project.title }}</h2>
+                                        </a>
+                                        <small style="color: rgb(102, 102, 102) 248, 255, 0.703)">{{ project.location }}</small>
                                       </div>
                                   </div>
                               </div>
