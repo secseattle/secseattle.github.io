@@ -41,8 +41,11 @@ layout: subpage
 
                               <div class="row">
                                   <div class="col-xs-9">
-                                        <a href="/{{ project.url | remove_first: '/' }}"> {{ project.title }}</a>
-                                        <small>{{ project.location }}</small>
+                                    <h2 style="cursor: pointer;">
+                                        {{ project.title }}
+                                        <a href="/{{ project.url | remove_first: '/' }}"></a>
+                                    </h2>
+                                      <small>{{ project.location }}</small>
                                   </div>
                                   <div class="col-xs-3">
 
