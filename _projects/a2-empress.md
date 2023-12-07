@@ -11,5 +11,4 @@ file-name: empress.html
 count: 1
 ---
 
-
-Senior housing in Seattle, WA
+Empress Senior Living is a 3 story, 73 unit housing campus for senior adults in the Laurelhurst neighborhood of Seattle. The project included ground-up construction of the building which includes 
