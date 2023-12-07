@@ -11,4 +11,10 @@ count: 2
 ---
 
 
-Apartment complex in Ballard, WA.
+This project consisted of the construction of a 7 story, 86 unit apartment complex in Ballard, WA. In addition to the residential units, Anker Ballard Flats includes 735 square feet of street level commercial space.
+
+Our work on Anker Ballard Flats included all electrical work required for the project, including:
+    - Lighting
+    - Power
+    - Gear
+    - Power to heating and ventilation systems
