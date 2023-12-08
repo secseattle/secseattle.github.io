@@ -15,7 +15,7 @@ This project consisted of the construction of a 7 story, 86 unit apartment compl
 
 Our work on Anker Ballard Flats included all electrical work required for the project, including:
 
-    - &#8226; Lighting
-    - &#8226; Power
-    - &#8226; Gear
-    - &#8226; Power to heating and ventilation systems
+- &#8226; Lighting
+- &#8226; Power
+- &#8226; Gear
+- &#8226; Power to heating and ventilation systems
