@@ -95,6 +95,7 @@
 .ls-slide .ls-bg {
 	left: 0px;
 	top: 0px;
+	object-fit: cover;
 	transform: none !important;
 	-o-transform: none !important;
 	-ms-transform: none !important;
