@@ -8,10 +8,10 @@ layout: default
       <!-- Slides -->
       {% assign counter = 0 %}
       {% for slide in page.slider %}
-      <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
+      <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;" style="margin: 0px;">
           <!-- slide background -->
           {% if counter == 1 %}
-            <img src="/{{ site.path.images }}/{{ slide.image }}" class="ls-bg" alt="Slide background" style="width: 20px; height: 20px"/>
+            <img src="/{{ site.path.images }}/{{ slide.image }}" class="ls-bg" alt="Slide background" style="width: 20px; height: 20px; margin: 0px;"/>
           {% else %}
           <img src="/{{ site.path.images }}/{{ slide.image }}" class="ls-bg" alt="Slide background" style="width: 100%; height: 100%; object-fit: cover"/>
           {% endif %}
