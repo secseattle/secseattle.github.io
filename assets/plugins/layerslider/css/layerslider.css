@@ -69,11 +69,12 @@
 .ls-slide {
 	width: 100%;
 	height: 100%;
+	position: relative;
 }
 
 .ls-slide,
 .ls-layer {
-	position: absolute;
+	position: relative;
 	display: none;
 	background-position: center center;
 	overflow: hidden;
@@ -82,10 +83,11 @@
 .ls-active,
 .ls-animating {
 	display: block !important;
+	position: relative;
 }
 
 .ls-slide > * {
-	position: absolute;
+	position: relative;
 	line-height: normal;
 	margin: 0;
 	left: 0;
@@ -93,6 +95,7 @@
 }
 
 .ls-slide .ls-bg {
+	position: relative;
 	left: 0px;
 	top: 0px;
 	object-fit: cover;
