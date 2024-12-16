@@ -35,7 +35,7 @@ slider:
   ### Slide 2
   - image: "SEC-Circle-Logos-dark-ring.png"
     text1: "<strong>NEW LOGO</strong>"
-    text2: "OAfter 16 years of business, Sterling Electrical Contractors now has a brand new logo!"
+    text2: "After 16 years of business, Sterling Electrical Contractors now has a brand new logo!"
   ### Slide 3
   - image: "wires.jpg"
     text1: "Sterling is equipped to take your job from <strong>start</strong> to <strong>finish</strong>. "
