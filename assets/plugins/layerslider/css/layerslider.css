@@ -613,7 +613,7 @@ body * .ls-slide > *,
 html * .ls-slide > *,
 body * .ls-slide > *,
 #ls-global * .ls-slide > * {
-	margin: 0;
+	margin: 0 !important;
 }
 
 html * .ls-container img,
