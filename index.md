@@ -33,7 +33,7 @@ slider:
     text1: "Sterling Electrical Contractors"
     text2: "Honesty. Value. Integrity."
   ### Slide 2
-  - image: "SEC-Circle-Logos-dark-ring.png"
+  - image: "small-SEC-Circle-Logos-dark-ring.png"
     text1: "<strong>NEW LOGO</strong>"
     text2: "After 16 years of business, Sterling Electrical Contractors now has a brand new logo!"
   ### Slide 3
