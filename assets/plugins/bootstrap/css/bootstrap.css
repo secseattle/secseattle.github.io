@@ -3985,44 +3985,44 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* Base styles (desktop view) */
 .logo {
-  height: auto;
-  margin-right: 20px;
+  height: auto !important;
+  margin-right: 20px !important;
 }
 
 .logo-circle {
-  width: 200px; /* Adjust for desktop */
-  margin-left: 100px;
-  margin-right: 10px;
+  width: 200px !important; /* Adjust for desktop */
+  margin-left: 100px !important;
+  margin-right: 10px !important;
 }
 
 .logo-white {
-  width: 50px; /* Adjust for desktop */
-  border-color: white;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
+  width: 50px !important; /* Adjust for desktop */
+  border-color: white !important;
+  border-radius: 5px !important;
+  border-style: solid !important;
+  border-width: 1px !important;
 
 }
 
 /* Mobile view styles */
 @media (max-width: 768px) {
   .navbar-header {
-    align-items: center;
+    align-items: center !important;
   }
 
   .logo {
-    margin-right: 0;
-    margin-bottom: 0px;
+    margin-right: 0 !important;
+    margin-bottom: 0px !important;
   }
 
   .logo-circle {
-    margin-left: 10px;
-    width: 100px; /* Smaller size for mobile */
-    margin-right: 5px;
+    margin-left: 10px !important;
+    width: 100px !important; /* Smaller size for mobile */
+    margin-right: 5px !important;
   }
 
   .logo-white {
-    width: 90px; /* Smaller size for mobile */
+    width: 90px !important; /* Smaller size for mobile */
   }
 }
 
