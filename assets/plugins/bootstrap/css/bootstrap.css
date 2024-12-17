@@ -3982,6 +3982,47 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 18px;
   line-height: 20px;
 }
+
+/* Base styles (desktop view) */
+.logo {
+  height: auto;
+  margin-right: 20px;
+}
+
+.logo-circle {
+  width: 130px; /* Adjust for desktop */
+}
+
+.logo-white {
+  width: 120px; /* Adjust for desktop */
+  border-color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+  .navbar-header {
+    flex-direction: column; /* Stack logos vertically */
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px; /* Add spacing for vertical layout */
+  }
+
+  .logo-circle {
+    width: 100px; /* Smaller size for mobile */
+  }
+
+  .logo-white {
+    width: 90px; /* Smaller size for mobile */
+  }
+}
+
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
