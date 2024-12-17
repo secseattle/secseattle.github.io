@@ -3990,15 +3990,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .logo-circle {
-  width: 130px; /* Adjust for desktop */
+  width: 160px; /* Adjust for desktop */
+  margin-left: 100px;
+  margin-right: 10px;
 }
 
 .logo-white {
-  width: 120px; /* Adjust for desktop */
+  width: 100px; /* Adjust for desktop */
   border-color: white;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
+
 }
 
 /* Mobile view styles */
@@ -4014,7 +4017,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 
   .logo-circle {
+    margin-left: 10px;
     width: 100px; /* Smaller size for mobile */
+    margin-right: 5px;
   }
 
   .logo-white {
