@@ -8,7 +8,7 @@ layout: default
       <!-- Slides -->
       {% assign counter = 0 %}
       {% for slide in page.slider %}
-      <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;" style="margin: 0px;">
+      <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;" style="margin: 0px; object-fit: contain !important">
           <!-- slide background -->
           {% if counter == 1 %}
             <img src="/{{ site.path.images }}/{{ slide.image }}" class="ls-bg" alt="Slide background" style="width: 20px; height: 20px"/>
