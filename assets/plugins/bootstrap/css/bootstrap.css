@@ -3983,48 +3983,36 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
 }
 
-/* Base styles (desktop view) */
+/* General styles */
 .logo {
-  height: auto !important;
-  margin-right: 20px !important;
+  height: auto;
+  margin-right: 20px;
 }
 
+/* Desktop-specific styles */
 .logo-circle {
-  width: 200px !important; /* Adjust for desktop */
-  margin-left: 100px !important;
-  margin-right: 10px !important;
+  width: 200px;
+  margin-left: 100px;
 }
 
 .logo-white {
-  width: 50px !important; /* Adjust for desktop */
-  border-color: white !important;
-  border-radius: 5px !important;
-  border-style: solid !important;
-  border-width: 1px !important;
-
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
-/* Mobile view styles */
+/* Mobile-specific styles */
 @media (max-width: 768px) {
-  .navbar-header {
-    align-items: center !important;
-  }
-
-  .logo {
-    margin-right: 0 !important;
-    margin-bottom: 0px !important;
-  }
-
   .logo-circle {
-    margin-left: 10px !important;
-    width: 100px !important; /* Smaller size for mobile */
-    margin-right: 5px !important;
+    width: 100px;
+    margin-left: 10px;
   }
 
   .logo-white {
-    width: 90px !important; /* Smaller size for mobile */
+    width: 90px;
   }
 }
+
 
 
 .navbar-brand:hover,
