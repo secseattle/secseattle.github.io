@@ -3990,13 +3990,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .logo-circle {
-  width: 160px; /* Adjust for desktop */
+  width: 200px; /* Adjust for desktop */
   margin-left: 100px;
   margin-right: 10px;
 }
 
 .logo-white {
-  width: 100px; /* Adjust for desktop */
+  width: 50px; /* Adjust for desktop */
   border-color: white;
   border-radius: 5px;
   border-style: solid;
@@ -4007,13 +4007,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* Mobile view styles */
 @media (max-width: 768px) {
   .navbar-header {
-    flex-direction: column; /* Stack logos vertically */
     align-items: center;
   }
 
   .logo {
     margin-right: 0;
-    margin-bottom: 10px; /* Add spacing for vertical layout */
+    margin-bottom: 0px;
   }
 
   .logo-circle {
