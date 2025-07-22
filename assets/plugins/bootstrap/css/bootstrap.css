@@ -3985,17 +3985,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 /* General styles */
 .logo1{
+      color: #357ebd; /* test */
   height: auto !important;
   margin-right: 20px !important;
 }
 
 /* Desktop-specific styles */
 .logo1-circle{
+      color: #357ebd; /* test */
   width: 200px !important;
   margin-left: 100px !important;
 }
 
 .logo1-white{
+      color: #357ebd; /* test */
   width: 50px !important;
   border: 1px solid white !important;
   border-radius: 5px !important;
@@ -4004,11 +4007,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* Mobile-specific styles */
 @media (max-width: 768px){
   .logo1-circle{
+    color: #357ebd; /* test */
     width: 100px !important;
     margin-left: 10px !important;
   }
 
   .logo1-white{
+        color: #357ebd; /* test */
     width: 90px !important;
   }
 }
