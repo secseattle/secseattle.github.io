@@ -29,7 +29,7 @@
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                       <i class="fa fa-bars icon-custom"></i>
                   </button>
-                  <a class="navbar-brand" href="/" title="{{ site.title }}"style="display: flex;">
+                  <a class="navbar-brand" href="/" title="{{ site.title }}"style="display: flex; flex-shrink: 0;">
                       <img src="/{{ site.path.images }}/SEC-Circle-Logos-dark-ring.png" class="logo1-circle" alt="{{ site.title }}">
                       <img src="/{{ site.path.images }}/sec-logo-white.png" alt="{{ site.title }}" class="logo1-white">          
                 </a>
@@ -100,7 +100,8 @@
 /* Desktop-specific styles */
 .logo1-circle {
   height: 100px;
-  margin-left: 100px !important;
+  padding-right: 10px;
+  padding-left: 0px;
 }
 
 .logo1-white {
@@ -115,6 +116,8 @@
     height: 30px;
     justify-content: center;
     align-items: center;
+    padding-right: 10px;
+    padding-left: 0px;
   }
 
   .logo1-white {
