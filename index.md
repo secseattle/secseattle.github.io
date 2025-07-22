@@ -42,6 +42,6 @@ slider:
     text2: "FROM UTILITIES TO THE PUNCH LIST."
   ### Slide 4
   - image: "SEC-Circle-Logos-dark-ring.png"
-    text1: "<strong>NEW LOGO</strong>"
-    text2: "After 16 years of business, Sterling Electrical Contractors now has a brand new logo!"
+    text1: "<strong>WE'RE REBRANDING!</strong>"
+    text2: "Celebrating 16 years with a bold new look — introducing our new logo."
 ---
