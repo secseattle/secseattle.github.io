@@ -33,15 +33,15 @@ slider:
     text1: "Sterling Electrical Contractors"
     text2: "Honesty. Value. Integrity."
   ### Slide 2
-  - image: "lightbulb.jpg"
-    text1: "<strong>Have an idea?</strong>"
-    text2: "STERLING CAN ASSIST IN DESIGN BUILD PROJECTS."
+  - image: "SEC-Circle-Logos-dark-ring.png"
+    text1: "<strong>NEW LOGO</strong>"
+    text2: "After 16 years of business, Sterling Electrical Contractors now has a brand new logo!"
   ### Slide 3
   - image: "wires.jpg"
     text1: "Sterling is equipped to take your job from <strong>start</strong> to <strong>finish</strong>. "
     text2: "FROM UTILITIES TO THE PUNCH LIST."
   ### Slide 4
-  - image: "SEC-Circle-Logos-dark-ring.png"
-    text1: "<strong>WE'RE REBRANDING!</strong>"
-    text2: "Celebrating 16 years with a bold new look — introducing our new logo.
+  - image: "lightbulb.jpg"
+    text1: "<strong>Have an idea?</strong>"
+    text2: "STERLING CAN ASSIST IN DESIGN BUILD PROJECTS."
 ---
