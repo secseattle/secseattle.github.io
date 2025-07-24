@@ -35,13 +35,13 @@ slider:
   ### Slide 2
   - image: "lightbulb.jpg"
     text1: "<strong>Have an idea?</strong>"
-    text2: "STERLING CAN ASSIST IN DESIGN BUILD PROJECTS."
+    text2: "Sterling can assist in design build projects"
   ### Slide 3
   - image: "wires.jpg"
     text1: "Sterling is equipped to take your job from <strong>start</strong> to <strong>finish</strong>. "
-    text2: "FROM UTILITIES TO THE PUNCH LIST."
+    text2: "From utilities to the punch list."
   ### Slide 4
   - image: "SEC-Circle-Logos-dark-ring.png"
-    text1: "WE'RE REBRANDING!"
+    text1: "We're rebranding!"
     text2: "Celebrating 16 years with a bold new look — introducing our new logo."
 ---
